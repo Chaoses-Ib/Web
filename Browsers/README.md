@@ -30,6 +30,8 @@
         - `Edge`
         - `Opera`
         - `Vivaldi`
+        - `Chromium Embedded Framework`
+        - `Electron`
 - `Opera`
   - Presto (discontinued)
     - `Opera`
