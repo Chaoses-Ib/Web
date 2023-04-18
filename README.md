@@ -1,4 +1,14 @@
 # Web
+## [HyperText Markup Language](HTML/README.md)
+
+## [Cascading Style Sheets](CSS/README.md)
+
+## [JavaScript](JS/README.md)
+
+## [Client-side Web Frameworks](Client-side/README.md)
+- [React](Client-side/React/README.md)
+  - [Next.js](Client-side/React/Next.js/README.md)
+
 ## [Web Browsers](Browsers/README.md)
 - [Storage](Browsers/Storage/README.md)
   - [HTTP Cookies](Browsers/Storage/HTTP%20Cookies.md)
@@ -8,6 +18,8 @@
     - [Chrome DevTools Protocol](Browsers/Chromium/DevTools/Protocol.md)
   - [Chromium Embedded Framework](Browsers/Chromium/CEF/README.md)
   - [Electron](Browsers/Chromium/Electron/README.md)
+
+## [Server-side Web Frameworks](Server-side/README.md)
 
 ## Security
 - [Web Path Scanning](Security/Web%20Path%20Scanning.md)

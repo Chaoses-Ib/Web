@@ -32,6 +32,7 @@
         - `Vivaldi`
         - `Chromium Embedded Framework`
         - `Electron`
+        - [carbonyl: Chromium running inside your terminal](https://github.com/fathyb/carbonyl)
 - `Opera`
   - Presto (discontinued)
     - `Opera`
