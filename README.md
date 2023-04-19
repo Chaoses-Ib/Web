@@ -4,6 +4,11 @@
 ## [Cascading Style Sheets](CSS/README.md)
 
 ## [JavaScript](JS/README.md)
+- [TypeScript](JS/TS/README.md)
+- [Node.js](JS/Node.js/README.md)
+- Package Managers
+  - [npm](JS/Package%20Managers/npm.md)
+  - [Yarn](JS/Package%20Managers/Yarn.md)
 
 ## [Client-side Web Frameworks](Client-side/README.md)
 - [React](Client-side/React/README.md)
