@@ -2,6 +2,9 @@
 ## [HyperText Markup Language](HTML/README.md)
 
 ## [Cascading Style Sheets](CSS/README.md)
+- [Values](CSS/Values.md)
+- Layout
+  - [Flexbox](CSS/Layout/Flexbox.md)
 
 ## [JavaScript](JS/README.md)
 - [TypeScript](JS/TS/README.md)

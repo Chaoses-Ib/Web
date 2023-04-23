@@ -1,6 +1,11 @@
 # Cascading Style Sheets
 [Wikipedia](https://en.wikipedia.org/wiki/CSS)
 
+[Learn to style HTML using CSS - Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS)
+
+[CSS-Tricks - Tips, Tricks, and Techniques on using Cascading Style Sheets.](https://css-tricks.com/)
+
+## Libraries
 - [Animate.css: 🍿 A cross-browser library of CSS animations. As easy to use as an easy thing.](https://animate.style/) ([GitHub](https://github.com/animate-css/animate.css))
 - [Tailwind CSS: A utility-first CSS framework for rapid UI development](https://tailwindcss.com/) ([GitHub](https://github.com/tailwindlabs/tailwindcss))
 - [normalize.css: A modern alternative to CSS resets](https://github.com/necolas/normalize.css) (inactive)
