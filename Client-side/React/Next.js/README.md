@@ -17,3 +17,19 @@
 [Getting Started | Next.js](https://nextjs.org/docs)
 
 [Error: listen EACCES: permission denied 0.0.0.0:3000 · Issue #1668 · BrowserSync/browser-sync](https://github.com/BrowserSync/browser-sync/issues/1668)
+
+## [next/image](https://nextjs.org/docs/api-reference/next/image)
+[next/image, how to set image width to 100%? · vercel/next.js · Discussion #18474](https://github.com/vercel/next.js/discussions/18474)
+
+[Next/Image component does not work with height="auto" · vercel/next.js · Discussion #32596](https://github.com/vercel/next.js/discussions/32596)
+```jsx
+<Image
+  src="url"
+  width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}
+/>
+```
+
+[How to use Image component in Next.js with unknown width and height - Andrew Dorobantu](https://notion-andrew.vercel.app/blog/next-image-component)

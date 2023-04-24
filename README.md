@@ -15,6 +15,7 @@
 
 ## [Client-side Web Frameworks](Client-side/README.md)
 - [React](Client-side/React/README.md)
+  - [MUI](Client-side/React/MUI/README.md)
   - [Next.js](Client-side/React/Next.js/README.md)
 
 ## [Web Browsers](Browsers/README.md)
