@@ -12,6 +12,7 @@
 - Package Managers
   - [npm](JS/Package%20Managers/npm.md)
   - [Yarn](JS/Package%20Managers/Yarn.md)
+- [Minification](JS/Minification.md)
 
 ## [Client-side Web Frameworks](Client-side/README.md)
 - [React](Client-side/React/README.md)
