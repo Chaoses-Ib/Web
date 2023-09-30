@@ -30,6 +30,8 @@
   - [Electron](Browsers/Chromium/Electron/README.md)
 
 ## [Server-side Web Frameworks](Server-side/README.md)
+- [Static Site Generators](Server-side/Static/README.md)
+  - [GitBook](Server-side/Static/GitBook/README.md)
 
 ## Security
 - [Web Path Scanning](Security/Web%20Path%20Scanning.md)
