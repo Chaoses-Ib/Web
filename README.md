@@ -32,8 +32,11 @@
   - [Electron](Browsers/Chromium/Electron/README.md)
 
 ## [Server-side Web Frameworks](Server-side/README.md)
-- [Static Site Generators](Server-side/Static/README.md)
-  - [GitBook](Server-side/Static/GitBook/README.md)
+- [Content Management Systems](Server-side/Content/README.md)
+  - [Static Site Generators](Server-side/Content/Static/README.md)
+    - [GitBook](Server-side/Content/Static/GitBook/README.md)
+  - Wikis
+    - [DokuWiki](Server-side/Content/Wikis/DokuWiki/README.md)
 
 ## Security
 - [Web Path Scanning](Security/Web%20Path%20Scanning.md)
