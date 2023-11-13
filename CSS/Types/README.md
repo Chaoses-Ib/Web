@@ -1,5 +1,5 @@
-# Values
-[MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units)
+# Types
+[CSS values and units - Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units)
 
 - Numeric value types
   - [`<integer>`](https://developer.mozilla.org/en-US/docs/Web/CSS/integer)
@@ -10,7 +10,7 @@
     - [`<time>`](https://developer.mozilla.org/en-US/docs/Web/CSS/time)
     - [`<resolution>`](https://developer.mozilla.org/en-US/docs/Web/CSS/resolution)
   - [`<percentage>`](https://developer.mozilla.org/en-US/docs/Web/CSS/percentage)
-- [`<color>`](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value)
+- [`<color>`](color.md)
 - [`<image>`](https://developer.mozilla.org/en-US/docs/Web/CSS/image)
 - [`<position>`](https://developer.mozilla.org/en-US/docs/Web/CSS/position_value)
 - Strings
