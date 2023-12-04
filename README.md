@@ -2,6 +2,8 @@
 ## [HyperText Markup Language](HTML/README.md)
 - Elements
   - [`<img>`](HTML/Elements/img.md)
+  - [`<kbd>`](HTML/Elements/kbd.md)
+  - [`<samp>`](HTML/Elements/samp.md)
 
 ## [Cascading Style Sheets](CSS/README.md)
 - [Types](CSS/Types/README.md)

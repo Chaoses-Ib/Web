@@ -122,6 +122,13 @@ JS:
 - [Playwright](https://github.com/microsoft/playwright)
 - [Cypress](https://github.com/cypress-io/cypress)
 
+Python:
+- [Selenium](https://github.com/SeleniumHQ/selenium/tree/trunk/py)
+
+  [Selenium with Python --- Selenium Python Bindings 2 documentation](https://selenium-python.readthedocs.io/)
+
+  - [Helium: Lighter web automation for Python](https://github.com/mherrmann/helium)
+
 .NET:
 - [Puppeteer Sharp](https://github.com/hardkoded/puppeteer-sharp)
 - [Playwright for .NET](https://github.com/microsoft/playwright-dotnet)
