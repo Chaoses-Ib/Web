@@ -1,4 +1,10 @@
-# `<kbd>`
+# Text-level Semantics
+[HTML Standard](https://html.spec.whatwg.org/multipage/text-level-semantics.html)
+
+## `<samp>`
+[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/samp)
+
+## `<kbd>`
 [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd)
 
 - ```html

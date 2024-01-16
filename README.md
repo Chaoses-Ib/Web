@@ -1,9 +1,9 @@
 # Web
 ## [HyperText Markup Language](HTML/README.md)
-- Elements
-  - [`<img>`](HTML/Elements/img.md)
-  - [`<kbd>`](HTML/Elements/kbd.md)
-  - [`<samp>`](HTML/Elements/samp.md)
+- [Elements](HTML/Elements/README.md)
+  - [Text-level Semantics](HTML/Elements/Text/README.md)
+  - [Embedded Content](HTML/Elements/Embedded/README.md)
+    - [Images](HTML/Elements/Embedded/Images/README.md)
 
 ## [Cascading Style Sheets](CSS/README.md)
 - [Backgrounds](CSS/Backgrounds/README.md)
