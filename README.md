@@ -12,6 +12,7 @@
 - Properties
   - [`backdrop-filter`](CSS/Properties/backdrop-filter.md)
   - [`background-*`](CSS/Properties/background.md)
+  - [`border-radius`](CSS/Properties/border-radius.md)
   - [`box-*`](CSS/Properties/box.md)
   - [`line-*`](CSS/Properties/line.md)
   - [`overflow-*`](CSS/Properties/overflow.md)
