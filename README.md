@@ -6,18 +6,18 @@
   - [`<samp>`](HTML/Elements/samp.md)
 
 ## [Cascading Style Sheets](CSS/README.md)
-- [Types](CSS/Types/README.md)
-  - [`<blend-mode>`](CSS/Types/blend-mode.md)
-  - [`<color>`](CSS/Types/color.md)
-- Properties
-  - [`backdrop-filter`](CSS/Properties/backdrop-filter.md)
-  - [`background-*`](CSS/Properties/background.md)
-  - [`border-radius`](CSS/Properties/border-radius.md)
-  - [`box-*`](CSS/Properties/box.md)
-  - [`line-*`](CSS/Properties/line.md)
-  - [`overflow-*`](CSS/Properties/overflow.md)
-- Layout
-  - [Flexbox](CSS/Layout/Flexbox.md)
+- [Backgrounds](CSS/Backgrounds/README.md)
+- [Borders](CSS/Borders/README.md)
+  - [Corners](CSS/Borders/Corners.md)
+  - [Drop Shadows](CSS/Borders/Shadows.md)
+- [Color](CSS/Color/README.md)
+- Layouts
+  - [Flexible Box Layout](CSS/Layouts/Flex/README.md)
+  - [Inline Layout](CSS/Layouts/Inline/README.md)
+- [Overflow](CSS/Overflow/README.md)
+- [Values](CSS/Values/README.md)
+- [Compositing and Blending](CSS/Compositing/README.md)
+- [Filter Effects](CSS/Filters/README.md)
 
 ## [JavaScript](JS/README.md)
 - [Engines](JS/Engines/README.md)

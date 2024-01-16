@@ -1,4 +1,6 @@
-# Types
+# Values and Units
+[CSS Values and Units Module Level 4](https://drafts.csswg.org/css-values-4)
+
 [CSS values and units - Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units)
 
 - Numeric value types
@@ -10,14 +12,16 @@
     - [`<time>`](https://developer.mozilla.org/en-US/docs/Web/CSS/time)
     - [`<resolution>`](https://developer.mozilla.org/en-US/docs/Web/CSS/resolution)
   - [`<percentage>`](https://developer.mozilla.org/en-US/docs/Web/CSS/percentage)
-- [`<color>`](color.md)
+- [`<color>`](../Color/README.md)
 - [`<image>`](https://developer.mozilla.org/en-US/docs/Web/CSS/image)
 - [`<position>`](https://developer.mozilla.org/en-US/docs/Web/CSS/position_value)
 - Strings
 - Identifiers
 - Functions
 
-## Length
+## Distance units: `<length>`
+[CSS Values and Units Module Level 4](https://drafts.csswg.org/css-values-4/#lengths)
+
 [CSS: em, px, pt, cm, in…](https://www.w3.org/Style/Examples/007/units.en.html)
 
 > The `px` unit is the magic unit of CSS. It is not related to the current font and usually not related to physical centimeters or inches either. The `px` unit is defined to be small but visible, and such that a horizontal 1px wide line can be displayed with sharp edges (no anti-aliasing). What is sharp, small and visible depends on the device and the way it is used: do you hold it close to your eyes, like a mobile phone, at arms length, like a computer monitor, or somewhere in between, like an e-book reader? The `px` is thus not defined as a constant length, but as something that depends on the type of device and its typical use.
