@@ -4,6 +4,7 @@
   - [Text-level Semantics](HTML/Elements/Text/README.md)
   - [Embedded Content](HTML/Elements/Embedded/README.md)
     - [Images](HTML/Elements/Embedded/Images/README.md)
+  - [Tabular Data](HTML/Elements/Tabular/README.md)
 
 ## [Cascading Style Sheets](CSS/README.md)
 - [Backgrounds](CSS/Backgrounds/README.md)
