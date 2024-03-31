@@ -36,6 +36,7 @@
   - [Next.js](Client-side/React/Next.js/README.md)
 
 ## [Web Browsers](Browsers/README.md)
+- [Document Object Model](Browsers/DOM/README.md)
 - [Storage](Browsers/Storage/README.md)
   - [HTTP Cookies](Browsers/Storage/HTTP%20Cookies.md)
   - [Web Storage](Browsers/Storage/Web%20Storage.md)
@@ -45,6 +46,8 @@
     - [Chrome DevTools Protocol](Browsers/Chromium/DevTools/Protocol.md)
   - [Chromium Embedded Framework](Browsers/Chromium/CEF/README.md)
   - [Electron](Browsers/Chromium/Electron/README.md)
+- Extensions
+  - [Userscripts](Browsers/Extensions/Userscripts/README.md)
 
 ## [Server-side Web Frameworks](Server-side/README.md)
 - [Content Management Systems](Server-side/Content/README.md)
