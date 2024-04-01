@@ -20,5 +20,10 @@
   ```
   <kbd>Ctrl+N</kbd>
 
+## `<nobr>`
+[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nobr)
+
+`<span style="white-space: nowrap;">Long line with no breaks</span>`
+
 ## Markdown
 [VSCode Markdown Kbd: A vscode extension for wrapping shortcut keynames with `<kbd>` tags in markdown files.](https://github.com/jjaakko/markdown_kbd)
