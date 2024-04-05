@@ -18,6 +18,10 @@
 
 [Error: listen EACCES: permission denied 0.0.0.0:3000 · Issue #1668 · BrowserSync/browser-sync](https://github.com/BrowserSync/browser-sync/issues/1668)
 
+## URLs
+- [Only absolute URLs are supported · vercel/next.js · Discussion #19013](https://github.com/vercel/next.js/discussions/19013)
+- [Middleware Relative URLs | Next.js](https://nextjs.org/docs/messages/middleware-relative-urls)
+
 ## [next/image](https://nextjs.org/docs/api-reference/next/image)
 [next/image, how to set image width to 100%? · vercel/next.js · Discussion #18474](https://github.com/vercel/next.js/discussions/18474)
 

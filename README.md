@@ -32,6 +32,8 @@
 
 ## [Client-side Web Frameworks](Client-side/README.md)
 - [React](Client-side/React/README.md)
+  - [Hooks](Client-side/React/Hooks.md)
+  - [Effects](Client-side/React/Effects.md)
   - [MUI](Client-side/React/MUI/README.md)
   - [Next.js](Client-side/React/Next.js/README.md)
 
