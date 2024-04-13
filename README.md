@@ -26,8 +26,8 @@
 - [TypeScript](JS/TS/README.md)
 - [Node.js](JS/Node.js/README.md)
 - Package Managers
-  - [npm](JS/Package%20Managers/npm.md)
-  - [Yarn](JS/Package%20Managers/Yarn.md)
+  - [npm](JS/Packages/npm.md)
+  - [Yarn](JS/Packages/Yarn.md)
 - [Minification](JS/Minification.md)
 
 ## [Client-side Web Frameworks](Client-side/README.md)
