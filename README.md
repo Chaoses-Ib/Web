@@ -35,7 +35,9 @@
   - [Hooks](Client-side/React/Hooks.md)
   - [Effects](Client-side/React/Effects.md)
   - [MUI](Client-side/React/MUI/README.md)
-  - [Next.js](Client-side/React/Next.js/README.md)
+  - [Frameworks](Client-side/React/Frameworks/README.md)
+    - [Next.js](Client-side/React/Frameworks/Next.js/README.md)
+- [Vue](Client-side/Vue/README.md)
 
 ## [Web Browsers](Browsers/README.md)
 - [Document Object Model](Browsers/DOM/README.md)

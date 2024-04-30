@@ -8,6 +8,12 @@
 
 [前端新手想问下 React 最能打的组合是什么？ - V2EX](https://www.v2ex.com/t/846126)
 
+[enaqx/awesome-react: A collection of awesome things regarding React ecosystem](https://github.com/enaqx/awesome-react)
+
+[React+TypeScript Cheatsheets: Cheatsheets for experienced React developers getting started with TypeScript](https://github.com/typescript-cheatsheets/react)
+
+[Preact: ⚛️ Fast 3kB React alternative with the same modern API. Components & Virtual DOM.](https://github.com/preactjs/preact)
+
 ## Components
 [Building UI with Components - From JavaScript to React | Learn Next.js](https://nextjs.org/learn/foundations/from-javascript-to-react/building-ui-with-components)
 - [Displaying Data with Props - From JavaScript to React | Learn Next.js](https://nextjs.org/learn/foundations/from-javascript-to-react/displaying-data-with-props)
@@ -25,6 +31,17 @@ V2EX:
 - [React UI 组件库 - V2EX](https://www.v2ex.com/t/693545)
 - [求推荐一个轻量级的 react ui 库，不想用 antd - V2EX](https://www.v2ex.com/t/778408)
 - [前端新手想问下 React 最能打的组合是什么？ - V2EX](https://www.v2ex.com/t/846126)
+
+[brillout/awesome-react-components: Curated List of React Components & Libraries.](https://github.com/brillout/awesome-react-components)
+
+Forms:
+- [Formik: Build forms in React, without the tears 😭](https://github.com/jaredpalmer/formik)
+
+Lists:
+- [react-virtualized: React components for efficiently rendering large lists and tabular data](https://github.com/bvaughn/react-virtualized)
+
+Tables:
+- [TanStack Table: 🤖 Headless UI for building powerful tables & datagrids for TS/JS - React-Table, Vue-Table, Solid-Table, Svelte-Table](https://github.com/TanStack/table)
 
 ## State
 [Adding Interactivity with State - From JavaScript to React | Learn Next.js](https://nextjs.org/learn/foundations/from-javascript-to-react/adding-interactivity-with-state)
