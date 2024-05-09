@@ -40,8 +40,44 @@ Forms:
 Lists:
 - [react-virtualized: React components for efficiently rendering large lists and tabular data](https://github.com/bvaughn/react-virtualized)
 
-Tables:
+### Tables / data grids
 - [TanStack Table: 🤖 Headless UI for building powerful tables & datagrids for TS/JS - React-Table, Vue-Table, Solid-Table, Svelte-Table](https://github.com/TanStack/table)
+  - [material-react-table: A fully featured Material UI V5 implementation of TanStack React Table V8, written from the ground up in TypeScript](https://github.com/KevinVandy/material-react-table)
+  - [Chakra UI](https://v2.chakra-ui.com/getting-started/with-react-table)
+
+- [AG Grid: High-Performance React Grid, Angular Grid, JavaScript Grid](https://www.ag-grid.com/) ([GitHub](https://github.com/ag-grid/ag-grid), free and paid)
+  - Smooth update
+
+  [AgGrid使用经验汇总](https://fishedee.com/2022/05/13/AgGrid%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C%E6%B1%87%E6%80%BB/)
+
+- [react-data-grid: Feature-rich and customizable data grid React component](https://github.com/adazzle/react-data-grid)
+
+- [react-table-library: :bento: React Table Library](https://github.com/table-library/react-table-library)
+
+- MUI
+
+  Very limited features.
+
+- MUI X: [DataGrid](https://mui.com/x/react-data-grid/) (paid)
+
+- Ant Design: [Table](https://ant.design/components/table)
+
+- ProComponents: [ProTable](https://procomponents.ant.design/en-US/components/table)
+
+- React Bootstrap: [Table](https://react-bootstrap.netlify.app/docs/components/table/)
+
+- [rsuite-table: A React table component.](https://github.com/rsuite/rsuite-table)
+
+  [开源 UI 库中，唯一同时实现了大表格虚拟化和树表格的 Table 组件 - V2EX](https://www.v2ex.com/t/528267)
+
+  [React 实现一个漂亮的 Table - V2EX](https://www.v2ex.com/t/387808)
+
+[jsgrids - Spreadsheet and data grid libraries for JavaScript](https://jsgrids.statico.io/)
+
+History:
+- 2022-02 [求个前端 table 组件，支持自定义列和字段 - V2EX](https://www.v2ex.com/t/833959)
+- 2022-12 [Best FREE React data grid library? (AG-Grid/React Table/Material UI etc)? : r/reactjs](https://www.reddit.com/r/reactjs/comments/z97rjl/best_free_react_data_grid_library_aggridreact/)
+- 2023-11 [You favorite data-grid component and why? : r/reactjs](https://www.reddit.com/r/reactjs/comments/17y7djo/you_favorite_datagrid_component_and_why/)
 
 ## State
 [Adding Interactivity with State - From JavaScript to React | Learn Next.js](https://nextjs.org/learn/foundations/from-javascript-to-react/adding-interactivity-with-state)
