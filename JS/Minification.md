@@ -17,5 +17,8 @@
 - [JS NICE: Statistical renaming, Type inference and Deobfuscation](http://www.jsnice.org/)
 - [js-beautify: Beautifier for javascript](https://github.com/beautify-web/js-beautify)
   - [Online JavaScript beautifier](https://beautifier.io/)
+  - Rich options.
+- [prettifyjs.net](https://www.prettifyjs.net/)
+  - Good compatibility.
 - VS Code
   - [Prettier Formatter for Visual Studio Code](https://github.com/prettier/prettier-vscode)
