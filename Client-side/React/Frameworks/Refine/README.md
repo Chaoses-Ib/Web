@@ -7,6 +7,10 @@
 
 [Enterprise Edition](https://refine.dev/enterprise/)
 
+[Demos/Templates](https://refine.dev/templates/):
+- [E-Commerce Application](https://example.admin.refine.dev/)
+- [CRM Application](https://example.crm.refine.dev/)
+
 History:
 - 2023-01 [Show HN: Refine v3.97 -- Open-source React framework for building CRUD apps | Hacker News](https://news.ycombinator.com/item?id=34515128)
 - 2023-03 [We released refine v4! To celebrate the new release of our open-source React-based framework(8.4K⭐ on GitHub), we invite you to Ask Us Anything! : r/reactjs](https://www.reddit.com/r/reactjs/comments/11r65oy/we_released_refine_v4_to_celebrate_the_new/)
