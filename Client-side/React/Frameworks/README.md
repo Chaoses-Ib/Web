@@ -42,11 +42,13 @@
 
 - [→Refine: Open-source Retool for Enterprise](Refine/README.md)
 
-- [Arco Design Pro: An out-of-the-box solution to quickly build enterprise-level applications based on Arco Design.](https://github.com/arco-design/arco-design-pro)
+- [Arco Design Pro: An out-of-the-box solution to quickly build enterprise-level applications based on Arco Design.](https://github.com/arco-design/arco-design-pro) (inactive)
 
 - [Slash Admin: A modern react admin. It is based on react 18, vite and TypeScript. It's fast !](https://github.com/d3george/slash-admin)
 
-- [react-antd-admin: A Management System Web powered by React. 一个使用 React 和 Antd 开发管理系统。](https://github.com/basefas/react-antd-admin)
+- [react-antd-admin: A Management System Web powered by React. 一个使用 React 和 Antd 开发管理系统。](https://github.com/basefas/react-antd-admin) (inactive)
+
+- [AdminJS: An admin panel for apps written in node.js](https://github.com/SoftwareBrothers/adminjs)
 
 Discussions:
 - 2019-07 [Looking for alternatives to react-admin : r/node](https://www.reddit.com/r/node/comments/ch6o6j/looking_for_alternatives_to_reactadmin/)
