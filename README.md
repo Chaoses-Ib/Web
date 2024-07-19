@@ -21,6 +21,7 @@
 - [Filter Effects](CSS/Filters/README.md)
 
 ## [JavaScript](JS/README.md)
+- [Types](JS/Types/README.md)
 - [Engines](JS/Engines/README.md)
   - [V8](JS/Engines/V8/README.md)
 - [TypeScript](JS/TS/README.md)
