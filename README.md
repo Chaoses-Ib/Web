@@ -32,6 +32,11 @@
   - [Yarn](JS/Packages/Yarn.md)
 - [Minification](JS/Minification.md)
 
+## [WebAssembly](Wasm/README.md)
+- [Memory Management](Wasm/Memory.md)
+- [JS](Wasm/JS.md)
+- [WebAssembly System Interface (WASI)](Wasm/WASI.md)
+
 ## [Client-side Web Frameworks](Client-side/README.md)
 - [React](Client-side/React/README.md)
   - [Hooks](Client-side/React/Hooks.md)
