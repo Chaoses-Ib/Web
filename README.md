@@ -42,6 +42,7 @@
 
 ## [Web Browsers](Browsers/README.md)
 - [Document Object Model](Browsers/DOM/README.md)
+- [Web Workers](Browsers/Workers/README.md)
 - [Storage](Browsers/Storage/README.md)
   - [HTTP Cookies](Browsers/Storage/HTTP%20Cookies.md)
   - [Web Storage](Browsers/Storage/Web%20Storage.md)
