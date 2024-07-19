@@ -22,6 +22,7 @@
 
 ## [JavaScript](JS/README.md)
 - [Types](JS/Types/README.md)
+  - [Array](JS/Types/Array.md)
 - [Engines](JS/Engines/README.md)
   - [V8](JS/Engines/V8/README.md)
 - [TypeScript](JS/TS/README.md)
@@ -47,6 +48,7 @@
 - [Storage](Browsers/Storage/README.md)
   - [HTTP Cookies](Browsers/Storage/HTTP%20Cookies.md)
   - [Web Storage](Browsers/Storage/Web%20Storage.md)
+- [Files](Browsers/Files/README.md)
 - [Progressive Web Apps](Browsers/Apps/README.md)
 - [Chromium](Browsers/Chromium/README.md)
   - [Chrome DevTools](Browsers/Chromium/DevTools/README.md)
