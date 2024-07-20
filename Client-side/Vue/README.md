@@ -1,15 +1,50 @@
-# Vue
-[Wikipedia](https://en.wikipedia.org/wiki/Vue.js)
+# [Vue](https://vuejs.org/)
+[Wikipedia](https://en.wikipedia.org/wiki/Vue.js), [GitHub](https://github.com/vuejs/core)
+
+[vuejs/awesome-vue: 🎉 A curated list of awesome things related to Vue.js](https://github.com/vuejs/awesome-vue)
 
 ## Component libraries
 - [Element Plus: 🎉 A Vue.js 3 UI Library made by Element team](https://github.com/element-plus/element-plus)
 
 - [Ant Design Vue](https://antdv.com/) ([GitHub](https://github.com/vueComponent/ant-design-vue))
 
+- [Naive UI: A Vue 3 Component Library. Fairly Complete. Theme Customizable. Uses TypeScript. Fast.](https://github.com/tusen-ai/naive-ui)
+
 - [Arco Design Vue](https://arco.design/vue/) ([GitHub](https://github.com/arco-design/arco-design-vue))
 
 History:
 - 2023-02 [各位用 vue3 的小伙伴们，有没有 UI 框架推荐？ - V2EX](https://global.v2ex.com/t/919116)
+
+Trees:
+- [wsfe/vue-tree: 使用虚拟列表优化的 Vue 树组件 Vue tree component optimized using virtual list](https://github.com/wsfe/vue-tree)
+  - 虚拟列表、懒加载、复选框、连接线、搜索、拖曳
+- [Arco Design Vue](https://arco.design/vue/component/tree)
+  - 虚拟列表、懒加载、复选框、连接线、搜索、拖曳
+- [Ant Design Vue: 树形控件 Tree](https://www.antdv.com/components/tree-cn)
+  - 虚拟列表、懒加载、复选框、连接线、搜索、拖曳、右键菜单
+- [Vue DevUI: Tree 树](https://vue-devui.github.io/components/tree/)
+  - 虚拟列表、懒加载、复选框、连接线、搜索、拖曳
+- [Naive UI: 树 Tree](https://www.naiveui.com/zh-CN/os-theme/components/tree)
+  - 虚拟列表、懒加载、复选框、连接线、搜索、拖曳
+- [he-tree: Highly customizable draggable Vue.js tree component.](https://github.com/phphe/he-tree)
+  - 虚拟列表、复选框、连接线、拖曳
+- [vxe-pc-ui: Vxe UI 一个基于 vue 的 PC 端组件库](https://github.com/x-extends/vxe-pc-ui)
+- [ysx-library/projects/VirtualTree](https://github.com/lycHub/ysx-library/tree/master/projects/VirtualTree)
+- [vue-virtree: vue3 + ts 实现的虚拟树组件，针对了海量数据的优化渲染方案](https://github.com/YauCheun/vue-virtree)
+
+  [手撸一个vue虚拟树组件 - 掘金](https://juejin.cn/post/7129515210255106061)
+
+- Vue 2
+  - [vue-easy-tree: A tree component based on vue2.x that supports a small amount of data or a large amount of data, multiple functions, and virtual scrolling.](https://github.com/wchbrad/vue-easy-tree)
+    - 虚拟列表、懒加载、操作
+- [vue 实现 tree 树形大量数据的虚拟滚动（包含树的搜索，勾选） - 掘金](https://juejin.cn/post/7120508675843686431)
+
+Tables:
+- [vxe-table: Vxe table 的表格组件](https://github.com/x-extends/vxe-table)
+- [Surely Vue](https://www.surely.cool/) (paid)
+- Vue 2
+  - [givingwu/vue-virtualized-table: A Virtualized Table component based on Vue.js](https://github.com/givingwu/vue-virtualized-table)
+- [Vue 有支持树形表格虚拟滚动的库吗? - V2EX](https://fast.v2ex.com/t/703568)
 
 ## Admin dashboards
 - [vue-pure-admin: 🔥 全面ESM+Vue3+Vite+Element-Plus+TypeScript编写的一款后台管理系统（兼容移动端）](https://github.com/pure-admin/vue-pure-admin)
