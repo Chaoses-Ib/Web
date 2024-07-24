@@ -56,6 +56,7 @@
   - [HTTP Cookies](Browsers/Storage/HTTP%20Cookies.md)
   - [Web Storage](Browsers/Storage/Web%20Storage.md)
 - [Files](Browsers/Files/README.md)
+- [Console](Browsers/Console/README.md)
 - [Progressive Web Apps](Browsers/Apps/README.md)
 - [Chromium](Browsers/Chromium/README.md)
   - [Chrome DevTools](Browsers/Chromium/DevTools/README.md)

@@ -7,8 +7,6 @@
 
 - [stdweb: A standard library for the client-side Web](https://github.com/koute/stdweb) (discontinued)
 
-- [console\_error\_panic\_hook: A panic hook for `wasm32-unknown-unknown` that logs panics with `console.error`](https://github.com/rustwasm/console_error_panic_hook)
-
 Discussions:
 - 2018-08 [Clarify the relationship to bindgen and stdweb - Issue #226 - rustwasm/team](https://github.com/rustwasm/team/issues/226)
 - 2020-09 [Freeze support of stdweb at v0.18 - Issue #1569 - yewstack/yew](https://github.com/yewstack/yew/issues/1569)
@@ -23,10 +21,6 @@ Discussions:
 - [web-sys: Raw bindings to Web APIs for projects using `wasm-bindgen`.](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/web-sys) ([Docs](https://rustwasm.github.io/wasm-bindgen/api/web_sys/))
 
 - [gloo: A modular toolkit for building fast, reliable Web applications and libraries with Rust and WASM](https://github.com/rustwasm/gloo)
-  - [gloo-console](https://docs.rs/gloo-console/latest/gloo_console/)
-    - Format patterns and `Debug` trait are not supported.
-  
-      Workaround: `log!(format!())`
 
 - [wasm-streams: Bridging between web streams and Rust streams using WebAssembly](https://github.com/MattiasBuelens/wasm-streams)
 
