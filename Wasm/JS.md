@@ -1,7 +1,39 @@
 # JS
 - [wasm-bindgen: Facilitating high-level interactions between Wasm modules and JavaScript](https://github.com/rustwasm/wasm-bindgen)
-  - [js-sys: Raw bindings to JS global APIs for projects using wasm-bindgen. This crate is handwritten and intended to work in all JS environments like browsers and Node.js.](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/js-sys)
-  - [web-sys: Raw bindings to Web APIs for projects using `wasm-bindgen`.](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/web-sys)
+  
+  [js-sys: Raw bindings to JS global APIs for projects using wasm-bindgen. This crate is handwritten and intended to work in all JS environments like browsers and Node.js.](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/js-sys)
+  - Returning `JsValue` / proxy objects
+
+    If return `JsValue`, the type is erased.
+
+    [getter and setter - The `wasm-bindgen` Guide](https://rustwasm.github.io/wasm-bindgen/reference/attributes/on-rust-exports/getter-and-setter.html)
+  
+    [Avoiding using Serde in Rust WebAssembly When Performance Matters | by Wenhe Li | Medium](https://medium.com/@wl1508/avoiding-using-serde-and-deserde-in-rust-webassembly-c1e4640970ca)
+
+  - Creating `JsValue` directly / via JSON
+
+    [Arbitrary Data with Serde - The `wasm-bindgen` Guide](https://rustwasm.github.io/wasm-bindgen/reference/arbitrary-data-with-serde.html)
+    > `serde-wasm-bindgen` works by directly manipulating JavaScript values. This requires a lot of calls back and forth between Rust and JavaScript, which can sometimes be slow. An alternative way of doing this is to serialize values to JSON, and then parse them on the other end. Browsers' JSON implementations are usually quite fast, and so this approach can outstrip `serde-wasm-bindgen`'s performance in some cases.
+    > 
+    > That's not to say that using JSON is always faster, though - the JSON approach can be anywhere from 2x to 0.2x the speed of `serde-wasm-bindgen`, depending on the JS runtime and the values being passed. It also leads to larger code size than `serde-wasm-bindgen`. So, make sure to profile each for your own use cases.
+
+    [serde-json-wasm: serde\_json for Wasm programs (small, deterministic, no floats)](https://github.com/CosmWasm/serde-json-wasm)
+
+    [Zireael-N/wasm-json-parse](https://github.com/Zireael-N/wasm-json-parse)
+    - [Is this project accurate? Is WASM json parsing actually faster than native? : r/WebAssembly](https://www.reddit.com/r/WebAssembly/comments/u0ji5d/is_this_project_accurate_is_wasm_json_parsing/)
+
+  - [`js_name`](https://rustwasm.github.io/wasm-bindgen/reference/attributes/on-js-imports/js_name.html)
+
+  - Types
+    - [`typescript_custom_section`](https://rustwasm.github.io/wasm-bindgen/reference/attributes/on-rust-exports/typescript_custom_section.html)
+      - [Tsify: A library for generating TypeScript definitions from rust code.](https://github.com/madonoharu/tsify)
+        - [Returning Vec<T> where T: IntoWasmAbi - Issue #49 - madonoharu/tsify](https://github.com/madonoharu/tsify/issues/49)
+      - [export\_ts\_macro](https://github.com/ivnsch/export_ts_macro) (discontinued)
+    - [rust-typescript-type-def: Generate TypeScript type definitions for Rust types.](https://github.com/dbeckwith/rust-typescript-type-def)
+    - [How to get more detailed type information in `.d.ts` - Issue #1197](https://github.com/rustwasm/wasm-bindgen/issues/1197)
+    - [Support descriptions for JS/TS param/return comments - Issue #1847](https://github.com/rustwasm/wasm-bindgen/issues/1847)
+
+  [web-sys: Raw bindings to Web APIs for projects using `wasm-bindgen`.](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/web-sys)
 
   [The `wasm-bindgen` Guide](https://rustwasm.github.io/wasm-bindgen/introduction.html)
 
