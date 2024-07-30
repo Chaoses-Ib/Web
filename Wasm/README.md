@@ -26,6 +26,19 @@
 
 [Rust and WebAssembly](https://rustwasm.github.io/book/introduction.html)
 
+stdlib:
+- [Rust `no_std` Playbook - HackMD](https://hackmd.io/@alxiong/rust-no-std)
+
+  > A lot of those things panic or they just return unimplemented error where possible (such as `Err(io::Error::Unimplemented)`)
+
+  [Practical guides on `no_std` and wasm support - tutorials - The Rust Programming Language Forum](https://users.rust-lang.org/t/practical-guides-on-no-std-and-wasm-support/94762)
+
+- [wasm and `no_std` - Issue #1120 - rustwasm/wasm-pack](https://github.com/rustwasm/wasm-pack/issues/1120)
+
+- [web-time: Drop-in replacement for `std::time` for Wasm in browsers](https://github.com/daxpedda/web-time)
+
+- [wstd: An async standard library for Wasm Components and WASI 0.2](https://github.com/yoshuawuyts/wstd)
+
 [Awesome Rust and Webassembly: Awesome Rust and WebAssembly projects, libraries, tools, and resources](https://github.com/rustwasm/awesome-rust-and-webassembly) (discontinued)
 
 Discussions:
@@ -54,22 +67,18 @@ Discussions:
 
 - `wasm64-unknown-unknown`
 
-stdlib:
-- [Rust `no_std` Playbook - HackMD](https://hackmd.io/@alxiong/rust-no-std)
-
-  > A lot of those things panic or they just return unimplemented error where possible (such as `Err(io::Error::Unimplemented)`)
-
-  [Practical guides on `no_std` and wasm support - tutorials - The Rust Programming Language Forum](https://users.rust-lang.org/t/practical-guides-on-no-std-and-wasm-support/94762)
-
-- [wasm and `no_std` - Issue #1120 - rustwasm/wasm-pack](https://github.com/rustwasm/wasm-pack/issues/1120)
-
-- [web-time: Drop-in replacement for `std::time` for Wasm in browsers](https://github.com/daxpedda/web-time)
-
 Tools:
 - [wasm-pack: 📦✨ your favorite rust -> wasm workflow tool!](https://github.com/rustwasm/wasm-pack)
   - [Debugging](https://rustwasm.github.io/book/reference/debugging.html): `wasm-pack build --debug`
   - `wasm-pack build`
-  - `wasm-pack test --headless --firefox`
+  - Testing
+    - `cargo test`
+      - `function not implemented on non-wasm32 targets`
+    - `wasm-pack test --headless --firefox`
+
+      `cfg!(test)` is true in `/tests`, but false in `src`.
+
+      [wasm-pack test: How to append cargo test parameter? - Issue #1324 - rustwasm/wasm-pack](https://github.com/rustwasm/wasm-pack/issues/1324)
   - `wasm-pack publish`
   - The default template is shit.
   - Vite
