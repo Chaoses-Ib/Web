@@ -49,6 +49,53 @@ Discussions:
   > 
   > Many of the above advantages have been solved in the new `web-sys` oriented ecosystem. `wasm-bindgen` alleviates the need for a `js!` macro, `trunk` replaces `cargo-web`, and libraries like `gloo` provide nice APIs.
 
+## References
+- `JsValue`
+  ```js
+  function addHeapObject(obj) {
+      if (heap_next === heap.length) heap.push(heap.length + 1);
+      const idx = heap_next;
+      heap_next = heap[idx];
+
+      heap[idx] = obj;
+      return idx;
+  }
+
+  constructor(bytes) {
+      const ret = wasm.f(addHeapObject(bytes));
+      this.__wbg_ptr = ret >>> 0;
+      return this;
+  }
+  ```
+
+- `&JsValue`
+  ```js
+  const heap = new Array(32).fill(undefined);
+
+  heap.push(undefined, null, true, false);
+
+  let stack_pointer = 32;
+
+  function addBorrowedObject(obj) {
+      if (stack_pointer == 1) throw new Error('out of js stack');
+      heap[--stack_pointer] = obj;
+      return stack_pointer;
+  }
+
+  try {
+      const ret = wasm.f(addBorrowedObject(bytes));
+      this.__wbg_ptr = ret >>> 0;
+      return this;
+  } finally {
+      heap[stack_pointer++] = undefined;
+  }
+  ```
+  [Support for Reference Types - The `wasm-bindgen` Guide](https://rustwasm.github.io/wasm-bindgen/reference/reference-types.html)
+
+- [Support for Weak References - The `wasm-bindgen` Guide](https://rustwasm.github.io/wasm-bindgen/reference/weak-references.html)
+
+[Allow opaque but owning pointer indirection in bindgen'd types - Issue #3405 - rustwasm/wasm-bindgen](https://github.com/rustwasm/wasm-bindgen/issues/3405)
+
 ## Web
 - [web-sys: Raw bindings to Web APIs for projects using `wasm-bindgen`.](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/web-sys) ([Docs](https://rustwasm.github.io/wasm-bindgen/api/web_sys/))
 
