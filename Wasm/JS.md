@@ -3,6 +3,8 @@
   
   [js-sys: Raw bindings to JS global APIs for projects using wasm-bindgen. This crate is handwritten and intended to work in all JS environments like browsers and Node.js.](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/js-sys)
   - Returning `JsValue` / proxy objects
+  
+    > A `JsValue` doesn't actually live in Rust right now but actually in a table owned by the `wasm-bindgen` generated JS glue code. Eventually the ownership will transfer into wasm directly and this will likely become more efficient, but for now it may be slightly slow.
 
     If return `JsValue`, the type is erased.
 
@@ -48,6 +50,14 @@ Discussions:
   > Despite the lack of development, `stdweb` is a really great tool and provides a higher level of abstraction, nicer APIs, and a convenient `js!` macro over the `web-sys` library. Furthermore, the sister tool, `cargo-web` doesn't support `web-sys`, only `stdweb`.
   > 
   > Many of the above advantages have been solved in the new `web-sys` oriented ecosystem. `wasm-bindgen` alleviates the need for a `js!` macro, `trunk` replaces `cargo-web`, and libraries like `gloo` provide nice APIs.
+
+## Benchmarks
+- [JS / wasm-bindgen comparison](https://rustwasm.github.io/wasm-bindgen/benchmarks/)
+  - Call a thunk: ~100M
+
+- [Microbenchmarks for `wasm-bindgen`](https://github.com/rustwasm/wasm-bindgen/blob/main/benchmarks/README.md)
+
+- [alexcrichton/rust-wasm-benchmark](https://github.com/alexcrichton/rust-wasm-benchmark) (outdated)
 
 ## References
 - `JsValue`
