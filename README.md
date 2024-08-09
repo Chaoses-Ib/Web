@@ -58,6 +58,7 @@
 - [Files](Browsers/Files/README.md)
 - [Console](Browsers/Console/README.md)
 - [Progressive Web Apps](Browsers/Apps/README.md)
+- [Tabs](Browsers/Tabs/README.md)
 - [Chromium](Browsers/Chromium/README.md)
   - [Chrome DevTools](Browsers/Chromium/DevTools/README.md)
     - [Chrome DevTools Protocol](Browsers/Chromium/DevTools/Protocol.md)
