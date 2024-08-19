@@ -15,7 +15,11 @@
 
   `null` is marked as one of the primitive values, because its behavior is seemingly primitive. However, when using the `typeof` operator, it returns `"object"`. This is considered [a bug](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof#typeof_null), but one which cannot be fixed because it will break too many scripts.
 
-[What is the difference between null and undefined in JavaScript? - Stack Overflow](https://stackoverflow.com/questions/5076944/what-is-the-difference-between-null-and-undefined-in-javascript)
+`undefined` vs `null`:
+- [What is the difference between null and undefined in JavaScript? - Stack Overflow](https://stackoverflow.com/questions/5076944/what-is-the-difference-between-null-and-undefined-in-javascript)
+- [Null vs. Undefined | TypeScript Deep Dive](https://basarat.gitbook.io/typescript/recap/null-undefined)
+- [Undefined vs null : r/typescript](https://www.reddit.com/r/typescript/comments/11dpu05/undefined_vs_null/)
+- [Typescript - What is the difference between null and undefined? - Stack Overflow](https://stackoverflow.com/questions/44536340/typescript-what-is-the-difference-between-null-and-undefined)
 
 ## Type annotations
 - [JSDoc: An API documentation generator for JavaScript.](https://github.com/jsdoc/jsdoc)
