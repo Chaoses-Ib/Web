@@ -37,9 +37,6 @@ V2EX:
 Forms:
 - [Formik: Build forms in React, without the tears 😭](https://github.com/jaredpalmer/formik)
 
-Lists:
-- [react-virtualized: React components for efficiently rendering large lists and tabular data](https://github.com/bvaughn/react-virtualized)
-
 ### Tables / data grids
 - [TanStack Table: 🤖 Headless UI for building powerful tables & datagrids for TS/JS - React-Table, Vue-Table, Solid-Table, Svelte-Table](https://github.com/TanStack/table)
   - [material-react-table: A fully featured Material UI V5 implementation of TanStack React Table V8, written from the ground up in TypeScript](https://github.com/KevinVandy/material-react-table)

@@ -17,7 +17,7 @@ History:
 
 Trees:
 - [wsfe/vue-tree: 使用虚拟列表优化的 Vue 树组件 Vue tree component optimized using virtual list](https://github.com/wsfe/vue-tree)
-  - 虚拟列表、懒加载、复选框、连接线、搜索、拖曳
+  - 虚拟列表、懒加载、复选框、连接线、搜索（支持远程搜索）、拖曳
 - [Arco Design Vue](https://arco.design/vue/component/tree)
   - 虚拟列表、懒加载、复选框、连接线、搜索、拖曳
 - [Ant Design Vue: 树形控件 Tree](https://www.antdv.com/components/tree-cn)

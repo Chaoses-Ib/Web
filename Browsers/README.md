@@ -1,4 +1,6 @@
 # Web Browsers
+[Standards --- WHATWG](https://spec.whatwg.org/)
+
 ![](https://upload.wikimedia.org/wikipedia/commons/7/74/Timeline_of_web_browsers.svg)
 
 - libwww (discontinued)
