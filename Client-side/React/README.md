@@ -37,6 +37,13 @@ V2EX:
 Forms:
 - [Formik: Build forms in React, without the tears 😭](https://github.com/jaredpalmer/formik)
 
+File upload:
+- [Uppy: The next open source file uploader for web browsers](https://github.com/transloadit/uppy)
+- [react-dropzone: Simple HTML5 drag-drop zone with React.js.](https://github.com/react-dropzone/react-dropzone)
+- [react-uploady: Modern file uploading - components & hooks for React](https://github.com/rpldy/react-uploady)
+- 2022-10 [Any good library to handle file uploads??? : r/reactjs](https://www.reddit.com/r/reactjs/comments/xxo9vw/any_good_library_to_handle_file_uploads/)
+- 2023-09 [Optimizing File Processing in React with Multipart Uploads and Downloads - DEV Community](https://dev.to/shingaiz/optimizing-file-processing-in-react-with-multipart-uploads-and-downloads-2n8p)
+
 ### Tables / data grids
 - [TanStack Table: 🤖 Headless UI for building powerful tables & datagrids for TS/JS - React-Table, Vue-Table, Solid-Table, Svelte-Table](https://github.com/TanStack/table)
   - [material-react-table: A fully featured Material UI V5 implementation of TanStack React Table V8, written from the ground up in TypeScript](https://github.com/KevinVandy/material-react-table)
