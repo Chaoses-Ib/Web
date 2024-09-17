@@ -31,9 +31,11 @@
       - [Tsify: A library for generating TypeScript definitions from rust code.](https://github.com/madonoharu/tsify)
         - [Returning Vec<T> where T: IntoWasmAbi - Issue #49 - madonoharu/tsify](https://github.com/madonoharu/tsify/issues/49)
       - [export\_ts\_macro](https://github.com/ivnsch/export_ts_macro) (discontinued)
-    - [rust-typescript-type-def: Generate TypeScript type definitions for Rust types.](https://github.com/dbeckwith/rust-typescript-type-def)
+    - [→TS](../JS/TS/README.md#rust)
     - [How to get more detailed type information in `.d.ts` - Issue #1197](https://github.com/rustwasm/wasm-bindgen/issues/1197)
     - [Support descriptions for JS/TS param/return comments - Issue #1847](https://github.com/rustwasm/wasm-bindgen/issues/1847)
+
+  - [`start`](https://rustwasm.github.io/wasm-bindgen/reference/attributes/on-rust-exports/start.html)
 
   [web-sys: Raw bindings to Web APIs for projects using `wasm-bindgen`.](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/web-sys)
 

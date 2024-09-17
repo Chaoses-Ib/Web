@@ -1,6 +1,11 @@
 # JavaScript
 [Wikipedia](https://en.wikipedia.org/wiki/JavaScript)
 
+## Coding conventions
+[Guidelines for writing JavaScript code examples - The MDN Web Docs project | MDN](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/JavaScript)
+- Functions/Methods/Properties/Variables: `camelCase`
+- Classes: `PascalCase`
+
 ## Build
 - [Vite: Next Generation Frontend Tooling](https://vitejs.dev/) ([GitHub](https://github.com/vitejs/vite), [Wikipedia](https://en.wikipedia.org/wiki/Vite_(software)))
   - 2022-11 [What's the hype with Vite? : r/webdev](https://www.reddit.com/r/webdev/comments/z4rbe4/whats_the_hype_with_vite/)
