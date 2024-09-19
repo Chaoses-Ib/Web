@@ -17,6 +17,17 @@
 > 
 > `.d.ts` files are *declaration* files that contain *only* type information. These files don't produce `.js` outputs; they are only used for typechecking. We'll learn more about how to write our own declaration files later.
 
+[About "\*.d.ts" in TypeScript - Stack Overflow](https://stackoverflow.com/questions/21247278/about-d-ts-in-typescript)
+
+[TypeScript: Documentation - Modules .d.ts](https://www.typescriptlang.org/docs/handbook/declaration-files/templates/module-d-ts.html)
+
+[typescript - When to use types.ts vs types.d.ts - Stack Overflow](https://stackoverflow.com/questions/68747657/when-to-use-types-ts-vs-types-d-ts)
+
+[Create d.ts for API response : r/typescript](https://www.reddit.com/r/typescript/comments/t0i6ky/create_dts_for_api_response/)
+> Are you proving types for their package, or types for their API? If it's the latter you shouldn't make '.d.ts' files. Just make regular `.ts` files and build them.
+
+[typescript - Import class in definition file (\*d.ts) - Stack Overflow](https://stackoverflow.com/questions/39040108/import-class-in-definition-file-d-ts)
+
 ## Arrays
 > To specify the type of an array like `[1, 2, 3]`, you can use the syntax `number[]`; this syntax works for any type (e.g. `string[]` is an array of strings, and so on). You may also see this written as `Array<number>`, which means the same thing.
 
@@ -67,8 +78,8 @@ Const enums can only use constant enum expressions and unlike regular enums they
   - Only top-level structs need `#[ts(export)]`
   - Cannot export multiple structs to the same file with `export_to`
 
-    [Combine exports into single file - Issue #59 - Aleph-Alpha/ts-rs](https://github.com/Aleph-Alpha/ts-rs/issues/59)
-    - [New release? - Issue #356 - Aleph-Alpha/ts-rs](https://github.com/Aleph-Alpha/ts-rs/issues/356)
+    [Combine exports into single file - Issue #59](https://github.com/Aleph-Alpha/ts-rs/issues/59)
+    - [New release? - Issue #356](https://github.com/Aleph-Alpha/ts-rs/issues/356)
   - Default format is bad for read
     - `/* */` for all comments
   - Deleted structs will not be automatically removed
@@ -76,13 +87,14 @@ Const enums can only use constant enum expressions and unlike regular enums they
   Types:
   - `i64` → `bigint`
     - `#[ts(type = "number")]`
-    - [large integer types should also be typed as numbers - Issue #94 - Aleph-Alpha/ts-rs](https://github.com/Aleph-Alpha/ts-rs/issues/94)
+    - [large integer types should also be typed as numbers - Issue #94](https://github.com/Aleph-Alpha/ts-rs/issues/94)
   - `type`
   - `Option` with `#[serde(skip_serializing_if = "Option::is_none")]` will still be exported as `T | null` instead of `T?`
 
     Add `#[ts(optional)]`
   - `Array<>`
-  - [Is it possible to generate numeric enums? - Issue #140 - Aleph-Alpha/ts-rs](https://github.com/Aleph-Alpha/ts-rs/issues/140)
+  - [Is it possible to generate numeric enums? - Issue #140](https://github.com/Aleph-Alpha/ts-rs/issues/140)
+  - [Is there a way to export external types? - Issue #82](https://github.com/Aleph-Alpha/ts-rs/issues/82)
 
 - [specta: Easily export your Rust types to other languages](https://github.com/specta-rs/specta)
   - [Support `serde_repr` - Issue #68 - specta-rs/specta](https://github.com/specta-rs/specta/issues/68)
