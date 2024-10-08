@@ -80,6 +80,7 @@ Tools:
 
       [wasm-pack test: How to append cargo test parameter? - Issue #1324 - rustwasm/wasm-pack](https://github.com/rustwasm/wasm-pack/issues/1324)
   - `wasm-pack publish`
+    - [support custom profiles instead of the predefines - Issue #1111 - rustwasm/wasm-pack](https://github.com/rustwasm/wasm-pack/issues/1111)
   - The default template is shit.
   - Vite
     - [vite-plugin-wasm: Add WebAssembly ESM integration (aka. Webpack's `asyncWebAssembly`) to Vite and support `wasm-pack` generated modules.](https://github.com/Menci/vite-plugin-wasm/)
