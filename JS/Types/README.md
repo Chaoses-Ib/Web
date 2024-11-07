@@ -21,6 +21,21 @@
 - [Undefined vs null : r/typescript](https://www.reddit.com/r/typescript/comments/11dpu05/undefined_vs_null/)
 - [Typescript - What is the difference between null and undefined? - Stack Overflow](https://stackoverflow.com/questions/44536340/typescript-what-is-the-difference-between-null-and-undefined)
 
+## Bit flags
+[Bit flags in TypeScript](https://shaky.sh/ts-bit-flags/)
+
+[Bitwise flags - MDN Web Docs Glossary: Definitions of Web-related terms | MDN](https://developer.mozilla.org/en-US/docs/Glossary/Bitwise_flags)
+
+> JS coerces `number`s to 32 bits before performing any bitwise operations, so the maximum number of flags that can be represented by a bit flag type is 32!
+
+Libraries:
+- [bitflags-ts](https://bitflags-ts.pages.dev/)
+- [aesy/easy-bits: Enums, BitFlags, BitFields, BitMasks and BitArrays for JavaScript & TypeScript](https://github.com/aesy/easy-bits)
+- [binarymax/bitflags: Small library for working with an arbitrarily large array of booleans](https://github.com/binarymax/bitflags)
+- [A javascript flags system based on bitwise function. This function allows for the representation of a flag state in a single base 10 number. This library also includes the ability to parse information about the flags, with functions to check if any (\`hasAny\`) or all (\`hasAllOf\`), of a group have been set, as well as their inverses (\`notAny\` and \`notAllOf\`, respectively).](https://gist.github.com/keisans/5491894)
+
+Reactive bit flags?
+
 ## Type annotations
 - [JSDoc: An API documentation generator for JavaScript.](https://github.com/jsdoc/jsdoc)
 
