@@ -21,6 +21,9 @@
 - [Undefined vs null : r/typescript](https://www.reddit.com/r/typescript/comments/11dpu05/undefined_vs_null/)
 - [Typescript - What is the difference between null and undefined? - Stack Overflow](https://stackoverflow.com/questions/44536340/typescript-what-is-the-difference-between-null-and-undefined)
 
+All JS primitives are immutable.
+- [Mutable | MDN](https://developer.mozilla.org/en-US/docs/Glossary/Mutable)
+
 ## Bit flags
 [Bit flags in TypeScript](https://shaky.sh/ts-bit-flags/)
 

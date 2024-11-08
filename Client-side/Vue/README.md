@@ -1,7 +1,21 @@
 # [Vue](https://vuejs.org/)
 [Wikipedia](https://en.wikipedia.org/wiki/Vue.js), [GitHub](https://github.com/vuejs/core)
 
+[Composition API FAQ | Vue.js](https://vuejs.org/guide/extras/composition-api-faq.html)
+
+[The Future of Vue: Vapor Mode | Vue Mastery](https://www.vuemastery.com/blog/the-future-of-vue-vapor-mode/#supported-features)
+
 [vuejs/awesome-vue: 🎉 A curated list of awesome things related to Vue.js](https://github.com/vuejs/awesome-vue)
+
+## Project layout
+[Application Structure | Vuex](https://vuex.vuejs.org/guide/structure.html)
+
+[Vue 3 project structure | Vue FAQ](https://vue-faq.org/en/development/project-structure.html)
+
+[How to structure api calls in Vue.js? - Stack Overflow](https://stackoverflow.com/questions/40813975/how-to-structure-api-calls-in-vue-js)
+
+## Performance
+[Performance | Vue.js](https://vuejs.org/guide/best-practices/performance.html)
 
 ## Component libraries
 - [Element Plus: 🎉 A Vue.js 3 UI Library made by Element team](https://github.com/element-plus/element-plus)
@@ -26,6 +40,7 @@ Trees:
   - 虚拟列表、懒加载、复选框、连接线、搜索、拖曳
 - [Naive UI: 树 Tree](https://www.naiveui.com/zh-CN/os-theme/components/tree)
   - 虚拟列表、懒加载、复选框、连接线、搜索、拖曳
+  - 只使用虚拟列表时，data 改变后初次渲染时会访问所有 data，随后滚动也会访问相应 data
 - [he-tree: Highly customizable draggable Vue.js tree component.](https://github.com/phphe/he-tree)
   - 虚拟列表、复选框、连接线、拖曳
 - [vxe-pc-ui: Vxe UI 一个基于 vue 的 PC 端组件库](https://github.com/x-extends/vxe-pc-ui)
@@ -56,6 +71,8 @@ Tables:
 - [V3 Admin Vite](https://github.com/un-pany/v3-admin-vite)
 
 - [Fantastic-admin: ⭐⭐⭐⭐⭐ 一款开箱即用的 Vue 中后台管理系统框架，支持多款 UI 组件库，兼容PC、移动端。vue-admin, vue-element-admin, vue后台, 后台系统, 后台框架, 管理后台, 管理系统](https://github.com/fantastic-admin/basic)
+
+- [cool-admin-vue: 🔥 cool-admin一个很酷的后台权限管理框架，模块化、插件化、CRUD极速开发，永久开源免费，基于midway.js 3.0、typeorm、mysql、jwt、element-ui、vuex、vue-router、vue等构建](https://github.com/cool-team-official/cool-admin-vue)
 
 - [RuoYi 若依](https://www.ruoyi.vip/)
   - [RuoYi-Vue: 🎉 基于SpringBoot，Spring Security，JWT，Vue & Element 的前后端分离权限管理系统，同时提供了 Vue3 的版本](https://gitee.com/y_project/RuoYi-Vue)

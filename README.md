@@ -51,6 +51,8 @@
 - [Solid](Client-side/Solid/README.md)
 - [Svelte](Client-side/Svelte/README.md)
 - [Vue](Client-side/Vue/README.md)
+  - [Reactivity](Client-side/Vue/Reactivity.md)
+  - [Components](Client-side/Vue/Components/README.md)
 
 ## [Web Browsers](Browsers/README.md)
 - [Document Object Model](Browsers/DOM/README.md)
