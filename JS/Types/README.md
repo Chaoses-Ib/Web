@@ -36,6 +36,14 @@ Libraries:
 
 Reactive bit flags?
 
+## Maps
+Ordered:
+- [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
+- [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
+
+[When You Should Prefer Map Over Object In JavaScript](https://www.zhenghao.io/posts/object-vs-map)
+> *Unless* the keys are strings of small integers, `Map` is indeed **more performant** than `Object` on insertion, deletion and iteration speed, and it consumes **less memory** than an object of the same size.
+
 ## Type annotations
 - [JSDoc: An API documentation generator for JavaScript.](https://github.com/jsdoc/jsdoc)
 
