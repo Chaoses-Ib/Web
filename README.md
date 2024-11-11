@@ -53,6 +53,7 @@
 - [Vue](Client-side/Vue/README.md)
   - [Reactivity](Client-side/Vue/Reactivity.md)
   - [Components](Client-side/Vue/Components/README.md)
+  - [Internationalization](Client-side/Vue/Internationalization.md)
 
 ## [Web Browsers](Browsers/README.md)
 - [Document Object Model](Browsers/DOM/README.md)
