@@ -17,6 +17,8 @@
 ## Performance
 [Performance | Vue.js](https://vuejs.org/guide/best-practices/performance.html)
 
+虽然可以实现高性能，但是写起来心智负担很大，要时刻和“智能”的 reactivity 斗争，小心翼翼地别让它自动追踪。
+
 ## Component libraries
 - [Element Plus: 🎉 A Vue.js 3 UI Library made by Element team](https://github.com/element-plus/element-plus)
 
