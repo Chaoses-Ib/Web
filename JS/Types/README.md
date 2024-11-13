@@ -39,6 +39,20 @@ Libraries:
 
 Reactive bit flags?
 
+## Classes
+[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+
+[What exactly does the "class" keyword actually do? How is it implemented? - Stack Overflow](https://stackoverflow.com/questions/77602331/javascript-what-exactly-does-the-class-keyword-actually-do-how-is-it-implem)
+
+[constructor - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor)
+- A class cannot have more than one `constructor` method.
+- The `constructor` method may have a return value. While the base class may return anything from its constructor, the derived class must return an object or `undefined`, or a [`TypeError`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError) will be thrown.
+
+[this - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
+
+[JS Class fields potentially harmful | by Andrea Giammarchi | Medium](https://webreflection.medium.com/js-class-fields-potentially-harmful-62d68f1a05f3)
+- [JS Class fields potentially harmful - I have questions / Spec Reading - TC39](https://es.discourse.group/t/js-class-fields-potentially-harmful/1616?page=2)
+
 ## Maps
 Ordered:
 - [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)

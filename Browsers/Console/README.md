@@ -3,7 +3,15 @@
 
 ## Logging
 [MDN](https://developer.mozilla.org/en-US/docs/Web/API/console#outputting_text_to_the_console)
+- `log()` is just capturing the reference, the value may change when you view it later.
 
+  ```js
+  console.log(this.a)
+  console.log(this)
+  console.log(this.a)
+  ```
+
+Levels:
 - `debug()` (hide by default)
 - `log()`
 - `info()`
