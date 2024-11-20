@@ -20,16 +20,57 @@
 虽然可以实现高性能，但是写起来心智负担很大，要时刻和“智能”的 reactivity 斗争，小心翼翼地别让它自动追踪。
 
 ## Component libraries
-- [Element Plus: 🎉 A Vue.js 3 UI Library made by Element team](https://github.com/element-plus/element-plus)
-
-- [Ant Design Vue](https://antdv.com/) ([GitHub](https://github.com/vueComponent/ant-design-vue))
+- [PrimeVue: Next Generation Vue UI Component Library](https://github.com/primefaces/primevue)
+  - 风评较好
 
 - [Naive UI: A Vue 3 Component Library. Fairly Complete. Theme Customizable. Uses TypeScript. Fast.](https://github.com/tusen-ai/naive-ui)
+  - 中文文档
+  - [文档](https://www.naiveui.com/zh-CN/os-theme/docs/introduction)
+    - [受控模式与非受控模式 - Naive UI](https://www.naiveui.com/zh-CN/os-theme/docs/controlled-uncontrolled)
+  - [组件](https://www.naiveui.com/zh-CN/os-theme/components/button)
+  - [pro-components-naive-ui: 基于 naive-ui 二次封装，简化中后台开发](https://github.com/Zheng-Changfu/pro-components-naive-ui)
+    - [组件](https://naive-ui.pro-components.cn/zh-CN/os-theme/components/form)
+  - [vue3-dynamic-form](https://vue3-dynamic-form.dumogu.top/)
+
+- [Quasar Framework: Build high-performance VueJS user interfaces in record time](https://github.com/quasarframework/quasar)
+  - 依赖 CLI
+
+- [Vuetify: 🐉 Vue Component Framework](https://github.com/vuetifyjs/vuetify)
+  - Vue 3 支持不成熟
+
+- [Nuxt UI: A UI Library for Modern Web Apps, powered by Vue & Tailwind CSS.](https://github.com/nuxt/ui)
+
+- [Element Plus: 🎉 A Vue.js 3 UI Library made by Element team](https://github.com/element-plus/element-plus)
+
+- [daisyUI: 🌼 🌼 🌼 🌼 🌼  The most popular, free and open-source Tailwind CSS component library](https://github.com/saadeghi/daisyui)
+
+- [Ant Design Vue](https://antdv.com/) ([GitHub](https://github.com/vueComponent/ant-design-vue))
+  - > ant-design-vue 有些组件，比如 table\select,，如果你有海量数据的需求的话，它是不提供虚拟化的，在他的付费 pro 版本里有
 
 - [Arco Design Vue](https://arco.design/vue/) ([GitHub](https://github.com/arco-design/arco-design-vue))
 
-History:
+- [Lew UI: A beautiful component library based on vue3](https://github.com/lewkamtao/Lew-UI)
+
+  [爆肝两年！打磨了一款 Vue 3 组件库（很新），欢迎体验 👏 - V2EX](https://www.v2ex.com/t/1072340)
+
+[UI Lib Picker](https://ui-libs.vercel.app/)
+
+Discussions:
 - 2023-02 [各位用 vue3 的小伙伴们，有没有 UI 框架推荐？ - V2EX](https://global.v2ex.com/t/919116)
+- 2024-01 [Vue ui 组件库选择 - V2EX](https://www.v2ex.com/t/1006175)
+
+  > 推荐 naive-ui ，不建议使用 ant-design-vue ，ant-design-vue 有些组件，比如 table\select,，如果你有海量数据的需求的话，它是不提供虚拟化的，在他的付费 pro 版本里有。
+  > 
+  > 尤雨溪推荐过这个
+- 2024-01 [Which UI libraries are the most liked in Vue? : r/vuejs](https://www.reddit.com/r/vuejs/comments/196roib/which_ui_libraries_are_the_most_liked_in_vue/)
+
+  > I can tell you what we use & we DONT like......`Veutify`. Their vue 3 upgrade has kind of been a ClusterF...
+
+  > Quasar is hyped heavily on the sub, but it's not aesthetically pleasing and basically involves being locked in to their CLI. Primevue looks nice, shadcn/radix is promising. Report back if one fits your needs, few folks do
+
+- 2024-05 [这几个 ui 组件库中怎么选 - V2EX](https://www.v2ex.com/t/1041472)
+
+  > Naive UI 好看，不过这玩意常常要写 render 函数，比较麻烦，最好结合 jsx 使用。
 
 Trees:
 - [wsfe/vue-tree: 使用虚拟列表优化的 Vue 树组件 Vue tree component optimized using virtual list](https://github.com/wsfe/vue-tree)
@@ -66,9 +107,9 @@ Tables:
 ## Admin dashboards
 - [vue-pure-admin: 🔥 全面ESM+Vue3+Vite+Element-Plus+TypeScript编写的一款后台管理系统（兼容移动端）](https://github.com/pure-admin/vue-pure-admin)
 
-- [SoybeanAdmin: A clean, elegant, beautiful and powerful admin template, based on Vue3, Vite5, TypeScript, Pinia, NaiveUI and UnoCSS. 一个清新优雅、高颜值且功能强大的后台管理模板，基于最新的前端技术栈，包括 Vue3, Vite5, TypeScript, Pinia, NaiveUI 和 UnoCSS。](https://github.com/soybeanjs/soybean-admin)
-
-- [Naive Ui Admin: 一款基于 Vue3、Vite2 和 TypeScript 的先进中后台解决方案，集成了前沿的前端技术栈和典型业务模型。它拥有二次封装组件、动态菜单、权限校验、粒子化权限控制等核心功能，旨在帮助企业快速构建高质量的中后台项目。无论在新技术运用或业务实践层面，都能为您提供有力支持，并将持续更新，以满足您不断变化的需求](https://github.com/jekip/naive-ui-admin) (inactive)
+- [Naive UI](https://www.naiveui.com/zh-CN/os-theme/docs/community)
+  - [SoybeanAdmin: A clean, elegant, beautiful and powerful admin template, based on Vue3, Vite5, TypeScript, Pinia, NaiveUI and UnoCSS. 一个清新优雅、高颜值且功能强大的后台管理模板，基于最新的前端技术栈，包括 Vue3, Vite5, TypeScript, Pinia, NaiveUI 和 UnoCSS。](https://github.com/soybeanjs/soybean-admin)
+  - [Naive Ui Admin: 一款基于 Vue3、Vite2 和 TypeScript 的先进中后台解决方案，集成了前沿的前端技术栈和典型业务模型。它拥有二次封装组件、动态菜单、权限校验、粒子化权限控制等核心功能，旨在帮助企业快速构建高质量的中后台项目。无论在新技术运用或业务实践层面，都能为您提供有力支持，并将持续更新，以满足您不断变化的需求](https://github.com/jekip/naive-ui-admin) (inactive)
 
 - [V3 Admin Vite](https://github.com/un-pany/v3-admin-vite)
 
