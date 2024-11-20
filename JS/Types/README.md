@@ -54,6 +54,9 @@ Reactive bit flags?
 - [JS Class fields potentially harmful - I have questions / Spec Reading - TC39](https://es.discourse.group/t/js-class-fields-potentially-harmful/1616?page=2)
 
 ## Maps
+- `Object`
+  - [`Record<Keys, Type>`](https://www.typescriptlang.org/docs/handbook/utility-types.html#recordkeys-type)
+
 Ordered:
 - [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
 - [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
