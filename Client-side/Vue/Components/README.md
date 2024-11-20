@@ -1,4 +1,11 @@
 # Components
+## Lifecycle
+[Lifecycle Hooks | Vue.js](https://vuejs.org/guide/essentials/lifecycle)
+
+![](https://vuejs.org/assets/lifecycle.MuZLBFAS.png)
+
+[Composition API: Lifecycle Hooks | Vue.js](https://vuejs.org/api/composition-api-lifecycle.html)
+
 ## Props
 [Props | Vue.js](https://vuejs.org/guide/components/props.html)
 
