@@ -92,3 +92,21 @@ History:
 - [Zustand: 🐻 Bear necessities for state management in React](https://zustand-demo.pmnd.rs/) ([GitHub](https://github.com/pmndrs/zustand))
 
 [React有了 hox 和Recoil 还需要redux吗？ - 知乎](https://www.zhihu.com/question/445762769)
+
+## Discussions
+2024-10-05:
+> 自从 React 官方宣布 Create React App 被 Next.js 取代，SPA 这个词仿佛就从 React 社区消失了，所有人都把运行 React 需要跑一个 Node 服务端当成天经地义的事情。
+> 
+> 是的，file-based routing 是很好，我也不想再手写 `createBrowserRouter`, 但这不代表 React 开发必须要与服务端绑定啊。一个前端框架应该支持各种路由模式，或者是与之解耦的，或者至少社区中应该有多种不同方案的框架。然而现实是主流框架 Next 和 Remix 都是以 SSR 为主的。Remix 虽然有 SPA 模式但是从 SSR 兼容来的，是个半吊子，到现在还没走出 beta，未来也不指望了。
+> 
+> 新出的 One 框架让我看到了曙光，它从一开始就支持 SPA, SSR, SSG, API 多种路由模式，并且它的路由文件组织规则并没有 Remix 那种反人类的成分。希望能好好发展，给扭曲了心智的前端社区带来一种正常的选择吧。
+> 
+> https://onestack.dev/docs/routing-modes
+> 
+> 再多说两句，不同的模式有不同的应用场景，比如我本来就有一套完整的后端 API，那我自然应该开发 SPA，而不是搞 SSR 把后端放到 Node 里再转发或重新实现一遍；如果网站是内容发布为主，那么自然用 SSG，也不需要跑着个 Node 当服务器，导致连已有的 CDN 都上不了，非得整什么 edge network/computing，搞得自己很先进的样子，但说白了就是一堆容器化的 Node，成本、可用性能和发展了几十年的基于静态文件的 CDN 比吗？没错，说的就是你 Vercel。扭曲开发者心智，让开发者不再会根据场景不同选择不同方案，而是什么都硬凑到自己的大一统方案里，来达到把用户绑定在自己的平台的商业目的。
+> 
+> 一个框架把自己的场景支持好了就行，不要去带着主观思想抨击别的场景。这是我对 Next 最不爽的地方，整个公司的文化都过度商业化了，Next 谈及技术选择的文章都是一副「我才是正确答案」的样子，为了市占率把自己的价值观强行塞给行业新人。被资本化污染的框架，不该领导行业的发展。
+
+> Nuxt 反而是默认支持 SPA，后续才渐渐支持 SSR 和 SSG，所以我潜意识以为所有现代框架都是先实现对 SPA 的支持，看来这些 feature 的优先级和盈利模式相关，而不是实现技术难度相关
+>
+> 是的，vue 这块生态就很正常，react 就跟不在一个世界一样
