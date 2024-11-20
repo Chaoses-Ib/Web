@@ -11,6 +11,8 @@
   const { t } = useI18n()
   ```
 
+- [vue3-gettext: Translate Vue 3 applications with gettext.](https://github.com/jshmrtn/vue3-gettext)
+
 Discussions:
 - 2023-12 [Alternative to vue-i18n ? : r/vuejs](https://www.reddit.com/r/vuejs/comments/18k470v/alternative_to_vuei18n/)
 - 2024-03 [Vue i18n and its extremely confusing documentation : r/vuejs](https://www.reddit.com/r/vuejs/comments/1blxzht/vue_i18n_and_its_extremely_confusing_documentation/)

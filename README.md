@@ -49,6 +49,7 @@
     - [Next.js](Client-side/React/Frameworks/Next.js/README.md)
     - [Refine](Client-side/React/Frameworks/Refine/README.md)
 - [Vue](Client-side/Vue/README.md)
+  - [Templates](Client-side/Vue/Templates.md)
   - [Reactivity](Client-side/Vue/Reactivity.md)
   - [Components](Client-side/Vue/Components/README.md)
   - [Internationalization](Client-side/Vue/Internationalization.md)

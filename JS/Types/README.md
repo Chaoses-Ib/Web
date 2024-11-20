@@ -57,6 +57,8 @@ Reactive bit flags?
 - `Object`
   - [`Record<Keys, Type>`](https://www.typescriptlang.org/docs/handbook/utility-types.html#recordkeys-type)
 
+    [The Typescript Record utility type](https://graphite.dev/guides/typescript-record-utility-type)
+
 Ordered:
 - [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
 - [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
