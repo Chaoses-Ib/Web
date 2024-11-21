@@ -86,11 +86,31 @@ What about more fine-grained, mixed reactivity?
 ## [Computed properties](https://vuejs.org/guide/essentials/computed)
 Computed properties are cached based on their reactive dependencies. A computed property will only re-evaluate when some of its reactive dependencies have changed.
 
-How are computed properties different from methods? Just caching?
+```js
+const publishedBooksMessage = computed(() => {
+  return author.books.length > 0 ? 'Yes' : 'No'
+})
+
+const fullName = computed({
+  // getter
+  get() {
+    return firstName.value + ' ' + lastName.value
+  },
+  // setter
+  set(newValue) {
+    // Note: we are using destructuring assignment syntax here.
+    [firstName.value, lastName.value] = newValue.split(' ')
+  }
+})
+```
+
+How are computed properties different from methods? Just caching.
 
 Performance:
 - [When to avoid VueJs Computed Properties for greater performance - DEV Community](https://dev.to/pecus/when-to-avoid-vuejs-computed-properties-for-greater-performance-5anj)
 - [very poorly performance on computed property of computed property that accesses a nested array - Issue #6660 - vuejs/vue](https://github.com/vuejs/vue/issues/6660)
+
+## [Watchers](https://vuejs.org/guide/essentials/watchers.html)
 
 ## Ref unwrapping
 [Additional Ref Unwrapping Details](https://vuejs.org/guide/essentials/reactivity-fundamentals.html#additional-ref-unwrapping-details)
@@ -119,10 +139,3 @@ Isn't ref unwrapping a bad idea?
 
 Bypassing:
 - [`toRaw()`](https://vuejs.org/api/reactivity-advanced.html#toraw)
-
-## Store
-- [Pinia | The intuitive store for Vue.js](https://pinia.vuejs.org/)
-
-  [Defining a Store | Pinia](https://pinia.vuejs.org/core-concepts/)
-
-  Breaks `shallowRef()` + `triggerRef()`?
