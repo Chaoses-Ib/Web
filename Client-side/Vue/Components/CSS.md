@@ -33,5 +33,21 @@
 > Lastly, the styling in Vue's single-file components is very flexible. Through [vue-loader](https://github.com/vuejs/vue-loader), you can use any preprocessor, post-processor, and even deep integration with [CSS Modules](https://vue-loader.vuejs.org/en/features/css-modules.html) -- all within the `<style>` element.
 
 ## [CSS Modules](https://vuejs.org/api/sfc-css-features.html#css-modules)
+```vue
+<template>
+  <p :class="$style.red">This should be red</p>
+</template>
+
+<style module>
+.red {
+  color: red;
+}
+</style>
+```
+
+Note that `:class="$style.red"` is a JS expression, so class names containing dashes (like `page-break`) cannot be directly used, but have to be converted to camel case (like `pageBreak`), or in the form of `$style['page-break']`.
+
+From [VitePress](../../../Server-side/Content/Static/VitePress/README.md):
+> When used in Markdown, `<style scoped>` requires adding special attributes to every element on the current page, which will significantly bloat the page size. `<style module>` is preferred when locally-scoped styling is needed in a page.
 
 ## [`v-bind()` in CSS](https://vuejs.org/api/sfc-css-features.html#v-bind-in-css)
