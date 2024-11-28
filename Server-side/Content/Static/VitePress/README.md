@@ -85,6 +85,22 @@ markdown-it
 - [Code groups](https://vitepress.dev/guide/markdown#code-groups)
 - [Markdown file inclusion](https://vitepress.dev/guide/markdown#markdown-file-inclusion)
 
+### Images
+[Allow images to be zoomed in on click - Issue #854 - vuejs/vitepress](https://github.com/vuejs/vitepress/issues/854)
+- [vitepress-plugin-image-viewer: A vitepress image viewer plugin based on viewerjs](https://github.com/T-miracle/vitepress-plugin-image-viewer)
+  - `vImageViewer` is a button, `![]()` is an image
+  - Missing dev dep: `npm install -D sass-embedded`
+  - Cursor is not changed when hovering the image
+  - Even [the blog of the auther himself](https://github.com/T-miracle/blog/blob/7f5abfbc28270563dc3d77481fa7bf855c7d95cf/package.json) is using the old version...?
+  - [Image not showing if using vitepress-plugin-image-viewer - Issue #41 - lando/vitepress-theme-default-plus](https://github.com/lando/vitepress-theme-default-plus/issues/41)
+
+  [VitePress Image Viewer Plugin: Implementing Seamless Zoom Functionality | Peter's Blog](https://www.shakecode.com/blog/other/vitepress-plugin-image-viewer)
+
+- [vitepress-plugin-lightbox: Plugin for VitePress to add support for viewing images in a lightbox.](https://github.com/BadgerHobbs/vitepress-plugin-lightbox)
+  - Can only zoom to 100%
+
+  [Support for lightbox image galleries - Issue #3855 - vuejs/vitepress](https://github.com/vuejs/vitepress/issues/3855)
+
 ## Vue
 [Using Vue in Markdown | VitePress](https://vitepress.dev/guide/using-vue)
 
@@ -129,3 +145,6 @@ The count is: {{ count }}
 [Sitemap Generation | VitePress](https://vitepress.dev/guide/sitemap-generation)
 
 ## [Internationalization](https://vitepress.dev/guide/i18n)
+
+## Plugins
+[T-miracle/vitepress-plugins: vitepress plugins. vitepress 插件](https://github.com/T-miracle/vitepress-plugins)
