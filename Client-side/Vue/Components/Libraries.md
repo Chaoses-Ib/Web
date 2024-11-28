@@ -2,14 +2,7 @@
 - [PrimeVue: Next Generation Vue UI Component Library](https://github.com/primefaces/primevue)
   - 风评较好
 
-- [Naive UI: A Vue 3 Component Library. Fairly Complete. Theme Customizable. Uses TypeScript. Fast.](https://github.com/tusen-ai/naive-ui)
-  - 中文文档
-  - [文档](https://www.naiveui.com/zh-CN/os-theme/docs/introduction)
-    - [受控模式与非受控模式 - Naive UI](https://www.naiveui.com/zh-CN/os-theme/docs/controlled-uncontrolled)
-  - [组件](https://www.naiveui.com/zh-CN/os-theme/components/button)
-  - [pro-components-naive-ui: 基于 naive-ui 二次封装，简化中后台开发](https://github.com/Zheng-Changfu/pro-components-naive-ui)
-    - [组件](https://naive-ui.pro-components.cn/zh-CN/os-theme/components/form)
-  - [vue3-dynamic-form](https://vue3-dynamic-form.dumogu.top/)
+- [Naive UI: A Vue 3 Component Library. Fairly Complete. Theme Customizable. Uses TypeScript. Fast.](#naive-ui)
 
 - [Quasar Framework: Build high-performance VueJS user interfaces in record time](https://github.com/quasarframework/quasar)
   - 依赖 CLI
@@ -50,6 +43,43 @@ Discussions:
 - 2024-05 [这几个 ui 组件库中怎么选 - V2EX](https://www.v2ex.com/t/1041472)
 
   > Naive UI 好看，不过这玩意常常要写 render 函数，比较麻烦，最好结合 jsx 使用。
+
+## [Naive UI](https://github.com/tusen-ai/naive-ui)
+> A Vue 3 Component Library. Fairly Complete. Theme Customizable. Uses TypeScript. Fast.
+
+- [中文文档](https://www.naiveui.com/zh-CN/os-theme/docs/introduction)
+- [受控模式与非受控模式 - Naive UI](https://www.naiveui.com/zh-CN/os-theme/docs/controlled-uncontrolled)
+
+[组件](https://www.naiveui.com/zh-CN/os-theme/components/button):
+- [Select](https://www.naiveui.com/zh-CN/os-theme/components/select)
+  - `@update:value` 回调中无法阻止事件，不能实现在 `options` 里添加选中时再进行检查的 option，比如弹窗新建选项。不过可以用 `<template #action>`/`<template #header>` 实现类似效果。
+    ```vue
+    <n-select
+      :options="[...configs.map(c => {
+        return { value: c.name, label: c.name }
+      }), { value: 'create', label: $t('createConfig') }]"
+      v-model:value="selectedConfigName"
+      @update:value="handleConfigChange"
+    />
+    ```
+    ```vue
+    <n-select
+      :options="configs"
+      label-field="name"
+      value-field="name"
+      v-model:value="selectedConfigName"
+      @update:value="handleConfigChange"
+    >
+      <template #action>
+        <n-button @click="createConfig">{{ $t('createConfig') }}</n-button>
+      </template>
+    </n-select>
+    ```
+
+第三方组件：
+- [pro-components-naive-ui: 基于 naive-ui 二次封装，简化中后台开发](https://github.com/Zheng-Changfu/pro-components-naive-ui)
+  - [组件](https://naive-ui.pro-components.cn/zh-CN/os-theme/components/form)
+- [vue3-dynamic-form](https://vue3-dynamic-form.dumogu.top/)
 
 ## Trees
 - [wsfe/vue-tree: 使用虚拟列表优化的 Vue 树组件 Vue tree component optimized using virtual list](https://github.com/wsfe/vue-tree)
