@@ -140,6 +140,10 @@ The count is: {{ count }}
 [Using a Custom Theme | VitePress](https://vitepress.dev/guide/custom-theme)
 
 ## [Routing](https://vitepress.dev/guide/routing)
+- [Generating Clean URL](https://vitepress.dev/guide/routing#generating-clean-url)
+
+  `example.com/path.html` → `example.com/path`
+
 [Asset Handling | VitePress](https://vitepress.dev/guide/asset-handling)
 
 [Sitemap Generation | VitePress](https://vitepress.dev/guide/sitemap-generation)
