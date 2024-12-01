@@ -1,4 +1,33 @@
 # [JSX](https://vuejs.org/guide/extras/render-function#jsx-tsx)
+```js
+h(
+  'ul',
+  { style: "justify-content: center;" },
+  items.value.map(({ id, text }) => {
+    return h('li', { key: id }, text)
+  })
+)
+```
+```jsx
+<ul style="justify-content: center;">
+  {items.value.map(({ id, text }) => {
+    return <li key={id}>{text}</li>
+  })}
+</ul>
+```
+- JSX can highlight the element, attributes, values and content with different colors, while with render functions there are just `h()`, arguments/variables and strings
+  - Built-in elements and components have different colors in both render functions and JSX
+- JSX can remove the `h()` noise
+- JSX makes it much familiar to HTML
+- Since React is dominant, using JSX may make AI tools work better
+
+[vuejs/babel-plugin-jsx](https://github.com/vuejs/babel-plugin-jsx)
+- [@vitejs/plugin-vue-jsx](https://github.com/vitejs/vite-plugin-vue/blob/main/packages/plugin-vue-jsx/README.md)
+
+  `include`: `/\.[jt]sx$/`
+
+  SFC: `<script setup lang="tsx">`
+
 ## Templates vs. JSX
 Templates for presentational components and render function / JSX for logical ones.
 
