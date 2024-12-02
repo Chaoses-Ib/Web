@@ -145,6 +145,9 @@ The count is: {{ count }}
   `example.com/path.html` → `example.com/path`
 
 [Asset Handling | VitePress](https://vitepress.dev/guide/asset-handling)
+- The `public` directory
+  - Reference files placed in `public` using root absolute path
+  - To enable file name hashing and cache control, don't put images only used by md/vue in `public`
 
 [Sitemap Generation | VitePress](https://vitepress.dev/guide/sitemap-generation)
 

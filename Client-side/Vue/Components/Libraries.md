@@ -49,6 +49,27 @@ Discussions:
 
 - [中文文档](https://www.naiveui.com/zh-CN/os-theme/docs/introduction)
 - [受控模式与非受控模式 - Naive UI](https://www.naiveui.com/zh-CN/os-theme/docs/controlled-uncontrolled)
+- [VitePress](https://www.naiveui.com/zh-CN/os-theme/docs/vitepress)
+  - 不引入任何组件时基本不影响体积，只会增加 29B，但引入 Button 后就会增加 104 KiB，不过压缩后只增加了 30 KiB
+    - 其中 HTML 增加 1.1 KiB，assets 增加 100 KiB
+  - 默认配置不会与 VitePress 的 dark theme 联动
+    ```js
+    const NaiveUIProvider = defineComponent({
+      render() {
+        const data = useData()
+        return h(
+          NConfigProvider,
+          { abstract: true, inlineThemeDisabled: true, theme: data.isDark.value ? darkTheme : lightTheme },
+          {
+            default: () => [
+              h(Layout, null, { default: this.$slots.default?.() }),
+              import.meta.env.SSR ? [h(CssRenderStyle), h(VitepressPath)] : null
+            ]
+          }
+        )
+      }
+    })
+    ```
 
 [组件](https://www.naiveui.com/zh-CN/os-theme/components/button):
 - [Select](https://www.naiveui.com/zh-CN/os-theme/components/select)
