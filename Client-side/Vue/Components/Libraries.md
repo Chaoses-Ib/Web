@@ -135,4 +135,7 @@ Discussions:
 - [Vue 有支持树形表格虚拟滚动的库吗? - V2EX](https://fast.v2ex.com/t/703568)
 
 ## Icons
-- [xicons: SVG Vue/React components integrated from fluentui-system-icons, ionicons, ant-design-icons, material-design-icons, Font-Awesome, tabler-icons and carbon icons. (Vue3, Vue2, React, SVG)](https://github.com/07akioni/xicons)
+- [xicons: SVG Vue/React components integrated from fluentui-system-icons, ionicons, ant-design-icons, material-design-icons, Font-Awesome, tabler-icons and carbon icons. (Vue3, Vue2, React, SVG)](https://github.com/07akioni/xicons) (discontinued)
+  - No `Icon` prefix
+  - [引入图标库的图标后很影响项目的打包速度 - Issue #870 - 07akioni/xicons](https://github.com/07akioni/xicons/issues/870)
+- [Tabler Icons for Vue - Tabler Documentation](https://tabler.io/docs/icons/vue)
