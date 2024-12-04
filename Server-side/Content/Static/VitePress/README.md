@@ -151,6 +151,7 @@ The count is: {{ count }}
 - The `public` directory
   - Reference files placed in `public` using root absolute path
   - To enable file name hashing and cache control, don't put images only used by md/vue in `public`
+- [Accessing Vite asset URLs in head config - Issue #3161](https://github.com/vuejs/vitepress/issues/3161)
 
 [Sitemap Generation | VitePress](https://vitepress.dev/guide/sitemap-generation)
 

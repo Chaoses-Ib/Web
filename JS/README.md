@@ -18,6 +18,7 @@
 > Next Generation Frontend Tooling
 
 [Static Asset Handling | Vite](https://vite.dev/guide/assets.html)
+- [Documenting `__VITE_ASSET__` or exposing a function to build asset url. - Issue #13459 - vitejs/vite](https://github.com/vitejs/vite/issues/13459)
 
 [Building for Production | Vite](https://vite.dev/guide/build.html)
 - [Multi-Page App](https://vite.dev/guide/build.html#multi-page-app)
