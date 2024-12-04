@@ -139,6 +139,9 @@ The count is: {{ count }}
 ## Themes
 [Using a Custom Theme | VitePress](https://vitepress.dev/guide/custom-theme)
 
+[Last Updated | VitePress](https://vitepress.dev/reference/default-theme-last-updated)
+> You need to commit the markdown file to see the updated time.
+
 ## [Routing](https://vitepress.dev/guide/routing)
 - [Generating Clean URL](https://vitepress.dev/guide/routing#generating-clean-url)
 

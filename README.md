@@ -1,4 +1,6 @@
 # [Web](Web.md)
+## [→Hypertext Transfer Protocol (HTTP)](https://github.com/Chaoses-Ib/Networks#application:~:text=Hypertext%20Transfer%20Protocol%20(HTTP))
+
 ## [HyperText Markup Language](HTML/README.md)
 - [Elements](HTML/Elements/README.md)
   - [Grouping](HTML/Elements/Grouping/README.md)
@@ -94,6 +96,11 @@
     - [GitBook](Server-side/Content/Static/GitBook/README.md)
   - Wikis
     - [DokuWiki](Server-side/Content/Wikis/DokuWiki/README.md)
+
+## [Semantic Web](Semantic/README.md)
+- [Robots Exclusion Protocol (`robots.txt`)](Semantic/Robots.md)
+- [Sitemaps](Semantic/Sitemaps.md)
+- [IndexNow](Semantic/IndexNow.md)
 
 ## Security
 - [Web Path Scanning](Security/Web%20Path%20Scanning.md)
