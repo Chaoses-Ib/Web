@@ -16,6 +16,7 @@
 - [Borders](CSS/Borders/README.md)
   - [Corners](CSS/Borders/Corners.md)
   - [Drop Shadows](CSS/Borders/Shadows.md)
+- [Cascading and Inheritance](CSS/Cascading/README.md)
 - [Color](CSS/Color/README.md)
 - Layouts
   - [Flexible Box Layout](CSS/Layouts/Flex/README.md)
