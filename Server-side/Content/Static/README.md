@@ -30,6 +30,9 @@ Generators:
 - Python
   - [mkdocs: Project documentation with Markdown.](https://github.com/mkdocs/mkdocs)
     - No multi-language support
+  - [Bikeshed: :bike: A preprocessor for anyone writing specifications that converts source files into actual specs.](https://github.com/speced/bikeshed)
+
+    > It's used on specs for CSS and many other W3C working groups, WHATWG, the C++ standards committee, and elsewhere!
 
 - Rust
   - [mdBook: Create book from markdown files. Like Gitbook but implemented in Rust](https://github.com/rust-lang/mdBook/tree/master)

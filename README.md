@@ -23,6 +23,7 @@
 - [Overflow](CSS/Overflow/README.md)
 - [Paged Media](CSS/Page/README.md)
 - [Values](CSS/Values/README.md)
+- [Selectors](CSS/Selectors/README.md)
 - [Compositing and Blending](CSS/Compositing/README.md)
 - [Filter Effects](CSS/Filters/README.md)
 
