@@ -11,7 +11,6 @@
 [CSS-Tricks - Tips, Tricks, and Techniques on using Cascading Style Sheets.](https://css-tricks.com/)
 
 ## Libraries
-- [Animate.css: 🍿 A cross-browser library of CSS animations. As easy to use as an easy thing.](https://animate.style/) ([GitHub](https://github.com/animate-css/animate.css))
 - [Tailwind CSS: A utility-first CSS framework for rapid UI development](https://tailwindcss.com/) ([GitHub](https://github.com/tailwindlabs/tailwindcss))
 - [normalize.css: A modern alternative to CSS resets](https://github.com/necolas/normalize.css) (inactive)
 - [Bulma: Modern CSS framework based on Flexbox](https://bulma.io/) ([GitHub](https://github.com/jgthms/bulma))

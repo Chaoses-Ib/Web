@@ -26,6 +26,7 @@
 - [Values](CSS/Values/README.md)
 - [Selectors](CSS/Selectors/README.md)
   - [Specificity](CSS/Selectors/Specificity.md)
+- [Animations](CSS/Animations/README.md)
 - [Compositing and Blending](CSS/Compositing/README.md)
 - [Filter Effects](CSS/Filters/README.md)
 
