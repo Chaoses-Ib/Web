@@ -105,6 +105,8 @@
 - [Robots Exclusion Protocol (`robots.txt`)](Semantic/Robots.md)
 - [Sitemaps](Semantic/Sitemaps.md)
 - [IndexNow](Semantic/IndexNow.md)
+- [Web Archiving](Semantic/Archiving/README.md)
+  - [Services](Semantic/Archiving/Services.md)
 
 ## Security
 - [Web Path Scanning](Security/Web%20Path%20Scanning.md)
