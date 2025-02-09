@@ -21,6 +21,7 @@
 - Layouts
   - [Flexible Box Layout](CSS/Layouts/Flex/README.md)
   - [Inline Layout](CSS/Layouts/Inline/README.md)
+  - [Positioned Layout](CSS/Layouts/Positioned/README.md)
 - [Overflow](CSS/Overflow/README.md)
 - [Paged Media](CSS/Page/README.md)
 - [Values](CSS/Values/README.md)

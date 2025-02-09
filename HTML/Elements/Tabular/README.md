@@ -17,3 +17,7 @@ tr: (td | th)*
 > The `thead`, `tbody`, and `tfoot` elements in HTML are used to group table rows into logical sections based on their content. There are two main reasons you'd want to do this:
 > 1. To allow the body to be scrolled independently of the header and/or footer
 > 2. To make it easier to apply different style rules to the different sections of the table.
+
+[css - Setting a table to display: block - Stack Overflow](https://stackoverflow.com/questions/7455650/setting-a-table-to-display-block)
+
+## [→Fixed headers](../../../CSS/Layouts/Positioned/README.md#fixed-table-headers)
