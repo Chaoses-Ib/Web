@@ -107,6 +107,7 @@ markdown-it
 [SSR Compatibility | VitePress](https://vitepress.dev/guide/ssr-compat)
 
 [VS Code](https://vitepress.dev/guide/using-vue#vs-code-intellisense-support)
+- Broken?
 
 ```vue
 ---
@@ -135,12 +136,6 @@ The count is: {{ count }}
 - Avoid `<style scoped>` in Markdown
 
   > When used in Markdown, `<style scoped>` requires adding special attributes to every element on the current page, which will significantly bloat the page size. [`<style module>`](../../../../Client-side/Vue/Components/CSS.md#css-modules) is preferred when locally-scoped styling is needed in a page.
-
-## Themes
-[Using a Custom Theme | VitePress](https://vitepress.dev/guide/custom-theme)
-
-[Last Updated | VitePress](https://vitepress.dev/reference/default-theme-last-updated)
-> You need to commit the markdown file to see the updated time.
 
 ## [Routing](https://vitepress.dev/guide/routing)
 - [Generating Clean URL](https://vitepress.dev/guide/routing#generating-clean-url)

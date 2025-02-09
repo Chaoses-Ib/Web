@@ -97,6 +97,7 @@
   - [Static Site Generators](Server-side/Content/Static/README.md)
     - [Docusaurus](Server-side/Content/Static/Docusaurus/README.md)
     - [VitePress](Server-side/Content/Static/VitePress/README.md)
+      - [Themes](Server-side/Content/Static/VitePress/Themes.md)
     - [Docsify](Server-side/Content/Static/Docsify/README.md)
     - [GitBook](Server-side/Content/Static/GitBook/README.md)
   - Wikis
