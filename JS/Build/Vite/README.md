@@ -10,7 +10,7 @@
 - [Multi-Page App](https://vite.dev/guide/build.html#multi-page-app)
 - [`build.manifest`](https://vite.dev/config/build-options.html#build-manifest)
 
-  > When set to `true`, the build will also generate a `.vite/manifest.json` file that contains a mapping of non-hashed asset filenames to their hashed versions, which can then be used by a server framework to render the correct asset links. When the value is a string, it will be used as the manifest file name.
+  > When set to `true`, the build will also generate a `.vite/manifest.json` file that contains a mapping of non-hashed asset filenames to their hashed versions, which can then be used by a server framework to render the correct asset links. When the value is a string, it will be used as the manifest file name.
 
 Deploying:
 - [Deploying a Static Site | Vite](https://vite.dev/guide/static-deploy)
@@ -28,3 +28,17 @@ Deploying:
 
 Discussions:
 - 2022-11 [What's the hype with Vite? : r/webdev](https://www.reddit.com/r/webdev/comments/z4rbe4/whats_the_hype_with_vite/)
+
+## Preprocessing
+- [vite-plugin-compile-time: Some compile-time magic for your Vite project](https://github.com/egoist/vite-plugin-compile-time)
+  - Top-level calls
+  - Standalone `.compile.ts` files
+- [unplugin-preprocessor-directives: preprocessor directives for jsx,tsx,js,ts,html,css,vue and more](https://github.com/KeJunMao/unplugin-preprocessor-directives)
+  - [vite-plugin-conditional-compiler: Conditional compilation syntax based on environment variables for Vite. Vite 下基于环境变量的条件编译](https://github.com/KeJunMao/vite-plugin-conditional-compile)
+- [LZS911/vite-plugin-conditional-compile](https://github.com/LZS911/vite-plugin-conditional-compile)
+- [vite-plugin-externals: use to external resources](https://github.com/crcong/vite-plugin-externals)
+
+## CSS
+- [vite-plugin-theme-preprocessor: css theme preprocessor plugin for vite](https://github.com/GitOfZGT/vite-plugin-theme-preprocessor)
+  - Implementing dynamic themes based on `Less` or `Sass`
+- [vite-plugin-vars-modifier: A vite plugin for parse preprocessor file.](https://github.com/fanhaoyuan/vite-plugin-vars-modifier)
