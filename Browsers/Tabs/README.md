@@ -15,6 +15,7 @@
   - Local storage
     - [backupOneTab: Back up and restore your OneTab Chrome extension data](https://github.com/joshuachough/backupOneTab)
     - [onetab-export-to-json: 🔖 Export URLs directly from OneTab's LevelDB database to JSON](https://github.com/jianyuan/onetab-export-to-json)
+  - 2020-02-20~2025-02-16
 
   ```json
   {
@@ -86,6 +87,7 @@
 - [Duplicate Tabs Closer - Chrome 应用商店](https://chromewebstore.google.com/detail/duplicate-tabs-closer/gnmdbogfankgjepgglmmfmbnimcmcjle)
   - Laggy
   - URL matching options
+  - Local storage
 - [Clutter Free - Prevent duplicate tabs - Chrome 应用商店](https://chromewebstore.google.com/detail/clutter-free-prevent-dupl/iipjdmnoigaobkamfhnojmglcdbnfaaf)
   - Laggy
   - Slow on cold start, especially with many tabs

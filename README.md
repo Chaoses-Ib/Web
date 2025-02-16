@@ -92,7 +92,7 @@
     - [Chrome DevTools Protocol](Browsers/Chromium/DevTools/Protocol.md)
   - [Chromium Embedded Framework](Browsers/Chromium/CEF/README.md)
   - [Electron](Browsers/Chromium/Electron/README.md)
-- Extensions
+- [Extensions](Browsers/Extensions/README.md)
   - [Userscripts](Browsers/Extensions/Userscripts/README.md)
 
 ## [Server-side Web Frameworks](Server-side/README.md)

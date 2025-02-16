@@ -1,4 +1,6 @@
 # Storage
+## [→Extensions](../Extensions/README.md#storage)
+
 ## Isolation
 - Profiles
 - [Firefox Multi-Account Containers](https://support.mozilla.org/en-US/kb/containers)

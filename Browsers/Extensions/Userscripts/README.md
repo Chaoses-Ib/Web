@@ -24,3 +24,8 @@
 - GitHub
 
 [Userscript.Zone](https://www.userscript.zone/)
+
+## Sync
+- Violentmonkey: local storage, OneDrive, Google Drive, Dropbox, WebDAV
+  - OneDrive: `Initializing error`
+  - WebDAV: `/Violentmonkey`
