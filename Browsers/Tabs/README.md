@@ -39,6 +39,7 @@
   - Export to JSON
   - Search
   - Local storage
+  - `Store all tabs in current window` will close each tab seperately instead of closing the window, polluting the history.
   - Vue 2
   - ~~[Poor UI performance with a large number of lists and tabs 列表较多时UI性能严重下降 - Issue #55](https://github.com/cnwangjie/better-onetab/issues/55)~~
   
