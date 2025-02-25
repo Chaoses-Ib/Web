@@ -10,6 +10,8 @@
   - [Embedded Content](HTML/Elements/Embedded/README.md)
     - [Images](HTML/Elements/Embedded/Images/README.md)
   - [Tabular Data](HTML/Elements/Tabular/README.md)
+  - [Forms](HTML/Elements/Forms/README.md)
+    - [Input](HTML/Elements/Forms/Input.md)
 
 ## [Cascading Style Sheets](CSS/README.md)
 - [Backgrounds](CSS/Backgrounds/README.md)
