@@ -109,6 +109,8 @@
     - [DokuWiki](Server-side/Content/Wikis/DokuWiki/README.md)
 
 ## [Semantic Web](Semantic/README.md)
+- [Uniform Resource Identifier (URI)](Semantic/URI/README.md)
+  - [Click Tracking](Semantic/URI/Tracking.md)
 - [Robots Exclusion Protocol (`robots.txt`)](Semantic/Robots.md)
 - [Sitemaps](Semantic/Sitemaps.md)
 - [IndexNow](Semantic/IndexNow.md)
