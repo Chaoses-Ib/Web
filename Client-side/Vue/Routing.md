@@ -2,6 +2,21 @@
 ## [vue-router](https://router.vuejs.org/)
 [GitHub](https://github.com/vuejs/router)
 
+### Base
+- v3: [base](https://web.archive.org/web/20180428222740/https://router.vuejs.org/en/api/options.html#mode)
+
+  [javascript - Vue.js routes serving from subdirectory - Stack Overflow](https://stackoverflow.com/questions/43918367/vue-js-routes-serving-from-subdirectory)
+
+- v4: [移动了 `base` 配置](https://github.com/vuejs/router/blob/707608e0fd1efab27cd8001799c3a70f4fa12af0/packages/docs/zh/guide/migration/index.md#%E7%A7%BB%E5%8A%A8%E4%BA%86-base-%E9%85%8D%E7%BD%AE)
+  ```js
+  import { createRouter, createWebHistory } from 'vue-router'
+  createRouter({
+    history: createWebHistory('/base-directory/'),
+    routes: [],
+  })
+  ```
+  [vue.js - How to set vue 3 with router from subfolder - Stack Overflow](https://stackoverflow.com/questions/64723498/how-to-set-vue-3-with-router-from-subfolder)
+
 ### Data passing
 - `useRoute()` / `$route`
 
