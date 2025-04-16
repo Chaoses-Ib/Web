@@ -37,6 +37,7 @@
 - [Types](JS/Types/README.md)
   - [Array](JS/Types/Array.md)
 - [TypeScript](JS/TS/README.md)
+- [Comments](JS/Comments.md)
 - [Engines](JS/Engines/README.md)
   - [V8](JS/Engines/V8/README.md)
 - [Node.js](JS/Node.js/README.md)

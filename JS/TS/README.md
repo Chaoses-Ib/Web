@@ -28,6 +28,98 @@
 
 [typescript - Import class in definition file (\*d.ts) - Stack Overflow](https://stackoverflow.com/questions/39040108/import-class-in-definition-file-d-ts)
 
+## Type checking
+Or, `any` to specific type narrowing.
+
+- Type annotation
+  - Require to define a variable/param
+
+- `<T>v`
+  - Conflict with JSX
+
+    [Generic usage reported as JSX Error - Issue #15713 - microsoft/TypeScript](https://github.com/microsoft/TypeScript/issues/15713)
+
+- `as` operator
+  - No check, force conversion
+
+  [TypeScript: Documentation - JSX](https://www.typescriptlang.org/docs/handbook/jsx.html)
+
+- [`satisfies` operator](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-9.html)
+  - > ensure that some expression matches some type, but also keep the most specific type of that expression for inference purposes
+
+  [The `satisfies` operator in TypeScript 4.9 is a game changer : r/webdev](https://www.reddit.com/r/webdev/comments/zrt1rb/the_satisfies_operator_in_typescript_49_is_a_game/)
+
+- `typeof` type guards
+  - Only primitive types
+
+- `class`
+  - [`instanceof` operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof)
+
+The chaos caused by no concrete types.
+
+### [Narrowing](https://www.typescriptlang.org/docs/handbook/2/narrowing.html)
+Sum type to specific type.
+
+- [Union types](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types): `A | B`
+  - [Discriminated unions](https://www.typescriptlang.org/docs/handbook/2/narrowing.html#discriminated-unions)
+
+  [Unions and Intersection Types](https://www.typescriptlang.org/docs/handbook/unions-and-intersections.html)
+
+- Intersection types: `A & B`
+
+  [Unions and Intersection Types](https://www.typescriptlang.org/docs/handbook/unions-and-intersections.html)
+
+- Truthiness narrowing (boolean narrowing)
+
+- Equality narrowing
+
+- `in` operator narrowing
+
+  [javascript - Typescript check if property in object in typesafe way - Stack Overflow](https://stackoverflow.com/questions/49707327/typescript-check-if-property-in-object-in-typesafe-way)
+
+- Type predicates (type guards)
+
+  > A type guard is some expression that performs a runtime check that guarantees the type in some scope.
+
+  ```ts
+  function isFish(pet: Fish | Bird): pet is Fish {
+    return (pet as Fish).swim !== undefined;
+  }
+  ```
+
+  [Using type predicates - Narrowing](https://www.typescriptlang.org/docs/handbook/2/narrowing.html#using-type-predicates)
+
+  [User-Defined Type Guards - Advanced Types](https://www.typescriptlang.org/docs/handbook/advanced-types.html#user-defined-type-guards)
+
+- [Generics](#generics) narrowing
+
+- `instanceof` narrowing
+  - Require `class`
+
+The chaos caused by no pattern matching.
+
+[Checking type of a generic param in typescript - Stack Overflow](https://stackoverflow.com/questions/54751710/checking-type-of-a-generic-param-in-typescript)
+
+[if statement - Accessing different properties in a typescript union type - Stack Overflow](https://stackoverflow.com/questions/43496154/accessing-different-properties-in-a-typescript-union-type)
+
+[02.14.2022 - TypeScript/Implement Rust-style Result](https://www.huy.rocks/everyday/02-14-2022-typescript-implement-rust-style-result) ([r/typescript](https://www.reddit.com/r/typescript/comments/st8h9i/mimic_rusts_result_type_in_7_lines_of_typescript/))
+
+## [Generics](https://www.typescriptlang.org/docs/handbook/2/generics.html)
+- How to do static dispatch?
+
+  Impossible because no concrete type?
+
+[Creating Types from Types](https://www.typescriptlang.org/docs/handbook/2/types-from-types.html)
+
+[Conditional Types](https://www.typescriptlang.org/docs/handbook/2/conditional-types.html)
+
+[How do i explain to typescript that a function checked if a field was defined? - Stack Overflow](https://stackoverflow.com/questions/72301241/how-do-i-explain-to-typescript-that-a-function-checked-if-a-field-was-defined)
+
+[javascript - Typescript check if property in object in typesafe way - Stack Overflow](https://stackoverflow.com/questions/49707327/typescript-check-if-property-in-object-in-typesafe-way)
+
+[Typescript Test Your Generic Type Part 1 - DEV Community](https://dev.to/tylim88/typescript-test-your-generic-type-part-1-4jbc)
+- [Typescript Test Your Generic Type Part 2 - DEV Community](https://dev.to/tylim88/typescript-test-your-generic-type-part-2-k2b)
+
 ## Arrays
 > To specify the type of an array like `[1, 2, 3]`, you can use the syntax `number[]`; this syntax works for any type (e.g. `string[]` is an array of strings, and so on). You may also see this written as `Array<number>`, which means the same thing.
 
