@@ -75,6 +75,7 @@ Discussions:
 - Collapse
   - `arrow` 默认 `margin-right: 4px`，导致无法直接替换为空
 - [Select](https://www.naiveui.com/zh-CN/os-theme/components/select)
+  - `value` 更新为 `undefined` 时不会清空选择，但更新为 `null` 时会
   - `@update:value` 回调中无法阻止事件，不能实现在 `options` 里添加选中时再进行检查的 option，比如弹窗新建选项。不过可以用 `<template #action>`/`<template #header>` 实现类似效果。
     ```vue
     <n-select
