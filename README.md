@@ -120,6 +120,7 @@
 - [IndexNow](Semantic/IndexNow.md)
 - [Web Archiving](Semantic/Archiving/README.md)
   - [Services](Semantic/Archiving/Services.md)
+- [Bookmarking](Semantic/Bookmarking/README.md)
 
 ## Security
 - [Web Path Scanning](Security/Web%20Path%20Scanning.md)
