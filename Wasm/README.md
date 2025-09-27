@@ -108,6 +108,8 @@ Discussions:
 - [Twiggy🌱: A code size profiler for Wasm](https://github.com/rustwasm/twiggy)
 
 ## Runtimes
+[Feature Status - WebAssembly](https://webassembly.org/features/)
+
 - Web browsers
 - Node.js
 - [Wasmer: 🚀 The leading Wasm Runtime supporting WASIX, WASI and Emscripten](https://github.com/wasmerio/wasmer)
