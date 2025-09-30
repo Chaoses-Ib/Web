@@ -43,6 +43,15 @@
 
   [Route Meta Fields | Vue Router](https://router.vuejs.org/guide/advanced/meta.html)
 
+- [Params](https://router.vuejs.org/guide/essentials/dynamic-matching.html)
+
+  [Routes' Matching Syntax | Vue Router](https://router.vuejs.org/guide/essentials/route-matching-syntax.html)
+
+- [Query and hash](https://router.vuejs.org/api/interfaces/RouteQueryAndHash.html)
+  - `v-if="$route.query.dev"` and `?dev=1`
+
+  [javascript - How to set URL query params in Vue with Vue-Router - Stack Overflow](https://stackoverflow.com/questions/40382388/how-to-set-url-query-params-in-vue-with-vue-router)
+
 - `props`
 
   [Passing Props to Route Components | Vue Router](https://router.vuejs.org/guide/essentials/passing-props.html)
