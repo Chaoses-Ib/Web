@@ -49,6 +49,21 @@
 
 - [Query and hash](https://router.vuejs.org/api/interfaces/RouteQueryAndHash.html)
   - `v-if="$route.query.dev"` and `?dev=1`
+  - Be careful with infinite redirection loop
+  - Force query
+    ```js
+    if (import.meta.env.DEV && !to.query.dev) {
+      next({ ...to, query: { dev: 1, ...to.query } });
+    } else {
+      next()
+    }
+    ```
+    [refactor(router): DEV force `dev=1` - 16Hexa/hap-console@09d70d9](https://github.com/16Hexa/hap-console/commit/09d70d9d6d52a1552bb67df943e7a4ff4664f090)
+  - Keep query
+
+    [vuejs2 - Vue Router: Keep query parameter and use same view for children - Stack Overflow](https://stackoverflow.com/questions/45091380/vue-router-keep-query-parameter-and-use-same-view-for-children)
+
+    [javascript - Vue Router, Are there a way to retain the query from previous page with Navigation guard - Stack Overflow](https://stackoverflow.com/questions/77039941/vue-router-are-there-a-way-to-retain-the-query-from-previous-page-with-navigati)
 
   [javascript - How to set URL query params in Vue with Vue-Router - Stack Overflow](https://stackoverflow.com/questions/40382388/how-to-set-url-query-params-in-vue-with-vue-router)
 
