@@ -15,6 +15,8 @@
 
 ## Compilers
 - [Binaryen: Optimizer and compiler/toolchain library for WebAssembly](https://github.com/WebAssembly/binaryen)
+  - `wasm-opt`
+  - Scoop: `scoop install binaryen`
 - [Emscripten](https://emscripten.org/)
 - [Wasmi: WebAssembly (Wasm) interpreter.](https://github.com/wasmi-labs/wasmi)
 - WABT
@@ -25,6 +27,8 @@
 [Rust and WebAssembly organization](https://github.com/rustwasm)
 
 [Rust and WebAssembly](https://rustwasm.github.io/book/introduction.html)
+
+[Sunsetting the rustwasm GitHub org | Inside Rust Blog](https://blog.rust-lang.org/inside-rust/2025/07/21/sunsetting-the-rustwasm-github-org/) ([r/rust](https://www.reddit.com/r/rust/comments/1m658j4/sunsetting_the_rustwasm_github_org/))
 
 stdlib:
 - [Rust `no_std` Playbook - HackMD](https://hackmd.io/@alxiong/rust-no-std)
@@ -53,8 +57,9 @@ Discussions:
   > Yew also looses against JS Frameworks in a decent chunk of DOM manipulation benchmarks. Against the big ones it wins some, looses some, but against stuff like Svelte or Solid it looses most of them. Unless you actually crunch numbers it's not worth it. Sycamore-rs, which is closer to SolidJS in its architecture, is much more competitive, but also very much has an unstable API.
 
 ### Build
-[Tragets](https://doc.rust-lang.org/rustc/platform-support.html#tier-2):
-- `wasm32-unknown-unknown`
+[Targets](https://doc.rust-lang.org/rustc/platform-support.html#tier-2):
+- [`wasm32v1-none`](https://doc.rust-lang.org/rustc/platform-support/wasm32v1-none.html)
+- [`wasm32-unknown-unknown`](https://doc.rust-lang.org/rustc/platform-support/wasm32-unknown-unknown.html)
 
   `rustup target add wasm32-unknown-unknown`
 
@@ -67,8 +72,28 @@ Discussions:
 
 - `wasm64-unknown-unknown`
 
+Features:
+- [WebAssembly targets: change in default target-features | Rust Blog](https://blog.rust-lang.org/2024/09/24/webassembly-targets-change-in-default-target-features/)
+  - [rust 1.82.0 wasm32-unknown-unknown triggers issues with wasm-bindgen >= 0.2.94 - Issue #132620 - rust-lang/rust](https://github.com/rust-lang/rust/issues/132620)
+  - [Rust v1.82 enables reference type transformations by default - Issue #4211 - wasm-bindgen/wasm-bindgen](https://github.com/wasm-bindgen/wasm-bindgen/issues/4211)
+    - v0.2.94~0.2.95, 2024-10-09~11-29
+    - [Deprecate `--reference-types` by daxpedda - Pull Request #4237](https://github.com/wasm-bindgen/wasm-bindgen/pull/4237)
+  - [wasm-opt fail with \[parse exception: invalid code after misc prefix: 17 (at 0:61491)\] - Issue #1441 - drager/wasm-pack](https://github.com/drager/wasm-pack/issues/1441)
+
+  > wasm工具链爆炸一个月了  
+  > wasm-pack系列工具遇到新编译的wasm会炸，我也遇到了，直接暂时关掉了wasm-opt
+
 Tools:
+- wasm-bindgen-cli + wasm-opt
+  
+  [Look Ma, No wasm-pack - Fourteen Screws](https://fourteenscrews.com/essays/look-ma-no-wasm-pack/)
+
 - [wasm-pack: 📦✨ your favorite rust -> wasm workflow tool!](https://github.com/rustwasm/wasm-pack)
+  - Inactive
+
+    > If you were not using any fancy features, it’s pretty much just a wrapper that runs cargo build, then wasm-bindgen, then wasm-opt. We replaced wasm-pack by directly running these three back when it started having maintenance issues (outdated binaryen) around 2021.
+  - [Installation](https://drager.github.io/wasm-pack/installer/)
+    - `cargo install wasm-pack --git https://github.com/drager/wasm-pack`
   - [Debugging](https://rustwasm.github.io/book/reference/debugging.html): `wasm-pack build --debug`
   - `wasm-pack build`
   - Testing
@@ -81,6 +106,7 @@ Tools:
       [wasm-pack test: How to append cargo test parameter? - Issue #1324 - rustwasm/wasm-pack](https://github.com/rustwasm/wasm-pack/issues/1324)
   - `wasm-pack publish`
     - [support custom profiles instead of the predefines - Issue #1111 - rustwasm/wasm-pack](https://github.com/rustwasm/wasm-pack/issues/1111)
+      - [Use the same profile name for both Cargo and wasm-pack by srussvoll - Pull Request #1489](https://github.com/drager/wasm-pack/pull/1489)
   - The default template is shit.
   - Vite
     - [vite-plugin-wasm: Add WebAssembly ESM integration (aka. Webpack's `asyncWebAssembly`) to Vite and support `wasm-pack` generated modules.](https://github.com/Menci/vite-plugin-wasm/)

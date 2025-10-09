@@ -40,6 +40,7 @@
   [web-sys: Raw bindings to Web APIs for projects using `wasm-bindgen`.](https://github.com/rustwasm/wasm-bindgen/tree/main/crates/web-sys)
 
   [The `wasm-bindgen` Guide](https://rustwasm.github.io/wasm-bindgen/introduction.html)
+  - [Changelog](https://github.com/wasm-bindgen/wasm-bindgen/blob/main/CHANGELOG.md)
 
 - [stdweb: A standard library for the client-side Web](https://github.com/koute/stdweb) (discontinued)
 
