@@ -7,7 +7,7 @@
 [WebAssembly - Threading | 曜彤.手记](https://www.hangyu.site/2023/11/09/WebAssembly-Threading/)
 
 Rust:
-- [web-sys: Wasm in Web Worker - The `wasm-bindgen` Guide](https://rustwasm.github.io/wasm-bindgen/examples/wasm-in-web-worker.html)
+- [web-sys: Wasm in Web Worker - The `wasm-bindgen` Guide](https://wasm-bindgen.github.io/wasm-bindgen/examples/wasm-in-web-worker.html)
   - [gloo-worker](https://docs.rs/gloo-worker/latest/gloo_worker/)
     
     [gloo/examples/file-hash](https://github.com/rustwasm/gloo/blob/master/examples/file-hash/README.md)

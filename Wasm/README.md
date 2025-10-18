@@ -63,7 +63,7 @@ Discussions:
 
   `rustup target add wasm32-unknown-unknown`
 
-  [Supported Rust Targets - The `wasm-bindgen` Guide](https://rustwasm.github.io/docs/wasm-bindgen/reference/rust-targets.html)
+  [Supported Rust Targets - The `wasm-bindgen` Guide](https://wasm-bindgen.github.io/wasm-bindgen/reference/rust-targets.html)
   > The `wasm-bindgen` target does not support the `wasm32-unknown-emscripten` nor the `asmjs-unknown-emscripten` targets.
 
 - `wasm32-unknown-emscripten`
