@@ -111,6 +111,29 @@ Performance:
 - [very poorly performance on computed property of computed property that accesses a nested array - Issue #6660 - vuejs/vue](https://github.com/vuejs/vue/issues/6660)
 
 ## [Watchers](https://vuejs.org/guide/essentials/watchers.html)
+- [Deep watchers](https://vuejs.org/guide/essentials/watchers.html#deep-watchers)
+  - Only calling `watch()` on a reactive object (instead of a `Ref`) will create a deep watcher. `toReactive(ref)` can be used to force it.
+  - [`toRef(() => ref.value.prop)`](https://vuejs.org/api/reactivity-utilities.html#toref) can be used to create selective deep watchers.
+
+- `oldValue` and `newValue` may be the same (for deep watchers)
+
+  On the other hand, one can create deep watchers to force calling the watch callback (without using sync watchers).
+
+  [Vue watch() outputs same oldValue and newValue - Stack Overflow](https://stackoverflow.com/questions/62729380/vue-watch-outputs-same-oldvalue-and-newvalue)
+
+- [Eager watchers](https://vuejs.org/guide/essentials/watchers.html#eager-watchers): `immediate: true`
+
+  > `watch` is lazy by default: the callback won't be called until the watched source has changed.
+  > 
+  > We can force a watcher's callback to be executed immediately by passing the `immediate: true` option.
+
+- [Sync watchers](https://vuejs.org/guide/essentials/watchers.html#sync-watchers): `flush: 'sync'`
+
+  > Sync watchers do not have batching and triggers every time a reactive mutation is detected. It's ok to use them to watch simple boolean values, but avoid using them on data sources that might be synchronously mutated many times, e.g. arrays.
+
+[`triggerRef` does not trigger `watch(() => ref.value)` - Issue #9579 - vuejs/core](https://github.com/vuejs/core/issues/9579)
+
+[How to force Vuejs to run watch functions - Stack Overflow](https://stackoverflow.com/questions/52445939/how-to-force-vuejs-to-run-watch-functions)
 
 ## Ref unwrapping
 [Additional Ref Unwrapping Details](https://vuejs.org/guide/essentials/reactivity-fundamentals.html#additional-ref-unwrapping-details)
