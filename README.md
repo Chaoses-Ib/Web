@@ -94,6 +94,8 @@
 - [Security](Browsers/Security/README.md)
   - [Content Security Policy (CSP)](Browsers/Security/CSP.md)
   - [Trusted Types](Browsers/Security/Trust.md)
+- [WebView](Browsers/WebView/README.md)
+  - [Microsoft Edge WebView2](Browsers/WebView/WebView2.md)
 - [Chromium](Browsers/Chromium/README.md)
   - [Chrome DevTools](Browsers/Chromium/DevTools/README.md)
     - [Chrome DevTools Protocol](Browsers/Chromium/DevTools/Protocol.md)
