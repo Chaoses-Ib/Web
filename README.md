@@ -117,6 +117,7 @@
 
 ## [Semantic Web](Semantic/README.md)
 - [Uniform Resource Identifier (URI)](Semantic/URI/README.md)
+  - [URI Libraries](Semantic/URI/Libraries.typ)
   - [Click Tracking](Semantic/URI/Tracking.md)
 - [Robots Exclusion Protocol (`robots.txt`)](Semantic/Robots.md)
 - [Sitemaps](Semantic/Sitemaps.md)
