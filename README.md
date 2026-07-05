@@ -40,8 +40,8 @@
   - [Array](JS/Types/Array.md)
 - [TypeScript](JS/TS/README.md)
 - [Comments](JS/Comments.md)
-- [Engines](JS/Engines/README.md)
-  - [V8](JS/Engines/V8/README.md)
+- [Engines](JS/Engines/README.typ)
+  - [V8](JS/Engines/V8/README.typ)
 - [Node.js](JS/Node.js/README.md)
 - Package Managers
   - [npm](JS/Packages/npm.md)

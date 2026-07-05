@@ -1,7 +1,8 @@
-# [V8](https://v8.dev/)
-[Wikipedia](https://en.wikipedia.org/wiki/V8_(JavaScript_engine))
+#import "@local/ib:0.1.0": *
+#title[#a[V8][https://v8.dev]]
+#a-badge[https://en.wikipedia.org/wiki/V8_(JavaScript_engine)]
 
-## Injection
+= Injection
 - [v8\_killer: A tool that can inject any js into the V8 VM](https://github.com/ShellWen/v8_killer)
   - [做了个 V8 虚拟机注入器， V8 Killer - V2EX](https://www.v2ex.com/t/978250)
   - [V8 Killer，让 Electron 程序注入不再困难 - V2EX](https://www.v2ex.com/t/996208)
