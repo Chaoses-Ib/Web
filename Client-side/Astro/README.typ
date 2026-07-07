@@ -32,6 +32,11 @@ Actually felt like a delight playing with it.
 #t[2506]
 #a[Next.js 真的是越来越难用了，什么狗屁 use client，不如 Astro 一根，有什么话跟我的岛屿说去吧 - V2EX][https://v2ex.com/t/1141028]
 
+= Versions
+- #a[Astro 7.0][https://astro.build/blog/astro-7/]
+  #a-badge[https://news.ycombinator.com/item?id=48821653]
+  - Rust compiler by default.
+
 = #a[Installation][https://docs.astro.build/en/install-and-setup]
 - ```sh npm create astro@latest```
   - #a[`astro/examples`][https://github.com/withastro/astro/tree/main/examples]
@@ -49,3 +54,13 @@ Actually felt like a delight playing with it.
   #footnote[#a[javascript - Changing the name of the `_astro` dist folder - Stack Overflow][https://stackoverflow.com/questions/79049023/changing-the-name-of-the-astro-dist-folder]]
 
 - Hot reload is buggy.
+
+- #a[Sitemaps][https://docs.astro.build/en/guides/integrations-guide/sitemap/]
+  - ```sh npx astro add sitemap```
+  - No auto `lastmod`.
+    #footnote[#a[Feature request: per-page lastmod from source metadata (git history / frontmatter) - withastro/roadmap - Discussion \#1370][https://github.com/withastro/roadmap/discussions/1370]]
+  - #a[Sitemap Extensions | Inox Tools][https://inox-tools.fryuni.dev/sitemap-ext]
+
+- #strike[
+  #a[Build under symbol/junction-linked directories will cause CSS missing - Issue \#17319][https://github.com/withastro/astro/issues/17319]
+  ]
