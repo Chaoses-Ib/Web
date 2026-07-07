@@ -83,6 +83,8 @@
 - [Svelte](Client-side/Svelte/README.md)
 - [Solid](Client-side/Solid/README.md)
 - [Astro](Client-side/Astro/README.typ)
+  - [Components](Client-side/Astro/Components/README.typ)
+    - [Component Libraries](Client-side/Astro/Components/Libraries.typ)
 
 ## [Web Browsers](Browsers/README.md)
 - [Document Object Model](Browsers/DOM/README.md)

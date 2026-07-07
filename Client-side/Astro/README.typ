@@ -20,6 +20,9 @@ Actually felt like a delight playing with it.
 
 #a[Static site generators like Astro are actually pretty complex for the problems they solve][https://jan.miksovsky.com/posts/2025/04-14-astro.html]
 
+#a[Astro is a developers f\*\*\*ing dream --- Websmith Studio][https://websmith.studio/blog/astro-is-a-developers-dream/]
+#a-badge[https://news.ycombinator.com/item?id=44507854]
+
 #t[2601]
 #a[Cloudflare acquires Astro | Hacker News][https://news.ycombinator.com/item?id=46646645]
 
@@ -29,8 +32,20 @@ Actually felt like a delight playing with it.
 #t[2506]
 #a[Next.js 真的是越来越难用了，什么狗屁 use client，不如 Astro 一根，有什么话跟我的岛屿说去吧 - V2EX][https://v2ex.com/t/1141028]
 
+= #a[Installation][https://docs.astro.build/en/install-and-setup]
+- ```sh npm create astro@latest```
+  - #a[`astro/examples`][https://github.com/withastro/astro/tree/main/examples]
+
 = #a[Islands architecture][https://docs.astro.build/en/concepts/islands/]
 
 = Compiler
 #a[withastro/compiler: The Astro compiler. Written in Go. Distributed as WASM.][https://github.com/withastro/compiler]
 - #a[withastro/compiler-rs: The Astro compiler][https://github.com/withastro/compiler-rs]
+
+= Build
+- #a[`build.assets`][https://docs.astro.build/en/reference/configuration-reference/#buildassets]
+  defaults to `_astro` instead of `assets`.
+  #footnote[#a[Move `/assets` folder to `/_astro` - Issue \#5745 - withastro/astro][https://github.com/withastro/astro/issues/5745]]
+  #footnote[#a[javascript - Changing the name of the `_astro` dist folder - Stack Overflow][https://stackoverflow.com/questions/79049023/changing-the-name-of-the-astro-dist-folder]]
+
+- Hot reload is buggy.
