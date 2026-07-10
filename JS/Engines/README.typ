@@ -37,10 +37,18 @@
   - Relatively fast, but still only \~2.2% of V8.
   - Used by:
     - #a[Nginx][https://nginx.org/en/docs/njs/engine.html]
+      #footnote[#a[Harnessing the Power and Convenience of JavaScript for Each Request with the NGINX JavaScript Module | F5][https://www.f5.com/company/blog/nginx/harnessing-power-convenience-of-javascript-for-each-request-with-nginx-javascript-module]]
       #footnote[#a[Introducing QuickJS engine as alternative JS engine. - Issue \#698 - nginx/njs][https://github.com/nginx/njs/issues/698]]
   - #a[lynx-family/PrimJS: JavaScript Engine Optimized for Lynx][https://github.com/lynx-family/primjs]
 
 = Rust
+- #a[`v8x`: Engine agnostic JavaScript][https://github.com/littledivy/v8x]
+  #footnote[#a[Switch from V8 to JavaScriptCore? - Issue \#33336 - denoland/deno][https://github.com/denoland/deno/issues/33336]]
+  - Engines: V8, JavaScriptCore, QuickJS-NG
+  - It's not mimicking the `v8` crate, but V8's C API.
+
+  #q[#a[Bartek Iwańczuk on X: "QuickJS is now passing 100% `rusty_v8` and `deno_core` tests so we could swap out JS engine in \@deno_land. Obv we're not gonna do that, but adding it as an option for `deno compile`d apps is now feasible. Trade runtime perf for smaller binary size. There's a ton of people who'd do" / X][https://x.com/biwanczuk/status/2075333144912252931]]
+
 - #a[Brimstone: New JavaScript engine written in Rust][https://github.com/Hans-Halverson/brimstone]
   #footnote[#a[Brimstone: ES2025 JavaScript engine written in Rust | Hacker News][https://news.ycombinator.com/item?id=45944337]]
 
@@ -48,6 +56,7 @@
   - #a[Benchmarks][https://boajs.dev/benchmarks]
 
 - #a[Nova: JS engine lolz][https://github.com/trynova/nova]
+  #a-badge[https://www.reddit.com/r/rust/comments/1gu77fh/nova_javascript_ecmascript_and_webassembly_engine/]
 
 - #a[Yavashark: A JS/TS Engine][https://github.com/Sharktheone/yavashark]
   - TS

@@ -20,14 +20,33 @@
 = Rust
 - #a[denoland/`rusty_v8`: Rust bindings for the V8 JavaScript engine][https://github.com/denoland/rusty_v8]
   - #a[`deno_core`][https://crates.io/crates/deno_core]
+    #a-badge[https://github.com/denoland/deno/tree/main/libs/core]
 
   #a[Announcing Stable V8 Bindings for Rust | Deno][https://deno.com/blog/rusty-v8-stabilized]
   #a-badge[https://lobste.rs/s/ad1nv4/announcing_stable_v8_bindings_for_rust]
 
+  #q[Where Rusty V8 is truly exposes V8's C++ API as directly as possible in Rust,
+  `deno_core` adds "ops" and an event loop.
+  Practically it maps JavaScript Promises onto Rust Futures.
+  The "ops" are marcos which allow users to define functions that cross the boundary between JavaScript and Rust as efficently as possible (using V8's Fast API where possible).
+
+  We've written some #a[blog posts][https://deno.com/blog/roll-your-own-javascript-runtime] about how one can use `deno_core` to quickly roll your own JavaScript runtime.
+
+  Although `deno_core` adds a lot on top of Rusty V8, it still lacks many things from the main deno runtime - it has no concept of TypeScript, it has very few APIs - no `fetch()` - and certainly no built-in node modules.]
+  #footnote[#a[Deno's Other Open Source Projects | Deno][https://deno.com/blog/open-source]]
+  #footnote[#a[From Lua to V8 --- Morgondag - Morgondag][https://morgondag.io/news/from-lua-to-v8]]
+
 - #a[rustyscript: Effortless JS integration for rust][https://github.com/rscarson/rustyscript]
+  #a-badge[https://crates.io/crates/rustyscript/]
   #footnote[#a[Rustyscript 0.10.0 released: Effortless JS integration for Rust - now with NodeJS support : r/rust][https://www.reddit.com/r/rust/comments/1gywvrx/rustyscript_0100_released_effortless_js/]]
+  - Based on `deno_core`.
+
+- #a[js-sandbox: Securely embed JavaScript code into a Rust application][https://github.com/Bromeon/js-sandbox]
+  #a-badge[https://crates.io/crates/js-sandbox]
+  - Based on `deno_core`.
 
 - #a[jstime: another runtime][https://github.com/jstime/jstime]
+  #a-badge[https://crates.io/crates/jstime_core]
 
 - #a[Ion.js: A Positively Charged JavaScript Runtime][https://github.com/alshdavid-public/ion]
 
